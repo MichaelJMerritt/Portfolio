@@ -28,7 +28,7 @@ Digging deep into data often uncovers details that aren't noticeable when lookin
 
 ### 3. Staying Grounded
 
-Its not always bets to stay in the details, often its necessary to take a step back and take a macro view of the data.
+Its not always best to stay in the details, it is often necessary to take a step back and take a macro view of the data.
 
 ![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/mortalityhistory.jpg)
 
