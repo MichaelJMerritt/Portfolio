@@ -34,10 +34,6 @@ Its not always bets to stay in the details, often its necessary to take a step b
 
 ### 4. Animation
 
-Often showing patterns in data that changes with time can be made more effective with animation.
+Often showing patterns in data that changes with time can be made more effective with animation.  There are other times when showing a concept is easier with animation.
 
-![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/covidmp.mp4)
-
-There are other times when showing a concept is easier with animation.
-
-![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/infectionstudy.mp4)
+Github doen't support in-web viewing of animation at the moment, but I'd be happy to show you more when we speak.
