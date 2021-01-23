@@ -4,4 +4,4 @@
 
 To show thought process and procedure.  
 
-![Image of DataFrame](https://github.com/MichaelJMerritt/Images/bigdf.jpg)
+![Image of DataFrame](./Images/bigdf.jpg)
