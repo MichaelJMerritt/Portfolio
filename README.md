@@ -1,5 +1,4 @@
-# Portfolio
-Mike's Portfolio
+# Mike's Portfolio
 
 ### 1. Toy Project
 
