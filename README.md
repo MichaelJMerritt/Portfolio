@@ -4,7 +4,7 @@
 
 Take massive amounts of data.
 
-![Image of DataFrame](../Images/bigdf.jpg)
+![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/bigdf.jpg)
 
 Write algorithems to locate signals.
 
