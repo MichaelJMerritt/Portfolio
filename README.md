@@ -30,3 +30,13 @@ Digging deep into data often uncovers details that aren't noticeable when lookin
 Its not always bets to stay in the details, often its necessary to take a step back and take a macro view of the data.
 
 ![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/mortalityhistory.jpg)
+
+### 4. Animation
+
+Often showing patterns in data that changes with time can be made more effective with animation.
+
+![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/covid.mp4)
+
+There are other times when showing a concept is easier with animation.
+
+![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/infectionstudy.mp4)
