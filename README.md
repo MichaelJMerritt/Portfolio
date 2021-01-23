@@ -35,7 +35,7 @@ Its not always bets to stay in the details, often its necessary to take a step b
 
 Often showing patterns in data that changes with time can be made more effective with animation.
 
-![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/covid.mp4)
+![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/covidmp.mp4)
 
 There are other times when showing a concept is easier with animation.
 
