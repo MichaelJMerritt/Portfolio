@@ -1,6 +1,6 @@
 # Mike Merritt
 
-### 1. Dashboard Methodology
+## 1. Dashboard Methodology
 
 Take massive amounts of data.
 
@@ -18,7 +18,8 @@ Release the code to inspect the global dataset and find data streams that meet t
 
 ![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/final.jpg)
 
-### 2. Getting Detailed
+
+## 2. Getting Detailed
 
 Digging deep into data often uncovers details that aren't noticeable when looking at summaries.
 
@@ -26,13 +27,15 @@ Digging deep into data often uncovers details that aren't noticeable when lookin
 
 ![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/election2.jpg)
 
-### 3. Staying Grounded
+
+## 3. Staying Grounded
 
 Its not always best to stay in the details, it is often necessary to take a step back and take a macro view of the data.
 
 ![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/mortalityhistory.jpg)
 
-### 4. Animation
+
+## 4. Animation
 
 Often showing patterns in data that changes with time can be made more effective with animation.  There are other times when showing a concept is easier with animation.
 
