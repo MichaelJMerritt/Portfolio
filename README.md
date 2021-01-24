@@ -35,7 +35,7 @@ Its not always best to stay in the details, it is often necessary to take a step
 
 ![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/mortalityhistory.jpg)
 
-The convergence indicators on the chart were simply calculated by looking at each individual date from the mortality data and watching for how long the value for that day took to stabilize:
+The convergence indicators on the chart were simply calculated by looking at each individual date from the mortality data and watching for how long the value for that day took to stabilize.  From the chart below we can see that for most dates the mortality counts approach their final value between weeks five and six:
 
 ![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/converge.jpg)
 
