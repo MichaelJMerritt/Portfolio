@@ -5,7 +5,6 @@ These simple projects show methodology and tool usage without exposing sensitive
 ## 1. Dashboard Methodology
 
 First large amounts of data needs to be collected.  This can be public data downloaded or scraped from websites or it can be queried from private databases.  Often this data is not immediately in a useable form and must be processed in order to make sure the data type are
-\
 
 ![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/bigdfa.jpg)
 
