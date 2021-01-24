@@ -18,7 +18,7 @@ Once the calculations are complete it is a good idea to test the algorithem to m
 
 ![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/test.jpg)
 
-Finally its time to release the code to inspect all of the data find indicators for all of the stock tickers.  The resulting data can be sorted in any number of ways, for instance below we find the stocks who's last signal was positive but ws many months ago, expecting to find stcoks who'se prices have been on long upward trajectories.  Success!
+Finally its time to release the code to inspect all of the data find indicators for all of the stock tickers.  The resulting data can be sorted in any number of ways, for instance below we find the stocks who's last signal was positive but ws many months ago, expecting to find stcoks who'se prices have been on long upward trajectories.  Success, although a few of them appear to be nearing a downturn signal:
 
 ![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/final.jpg)
 
