@@ -1,4 +1,5 @@
-# Mike Merritt's Projects Created from Public Data
+# Mike Merritt
+# Projects Created from Public Data
 
 These simple projects show methodology and tool usage without exposing any private data.
 
