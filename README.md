@@ -1,5 +1,5 @@
 # Mike Merritt
-# Projects Created from Public Data
+## Projects Created from Public Data
 
 These simple projects show methodology and tool usage without exposing any private data.
 
