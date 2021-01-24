@@ -37,3 +37,5 @@ Its not always best to stay in the details, it is often necessary to take a step
 Often showing patterns in data that changes with time can be made more effective with animation.  There are other times when showing a concept is easier with animation.
 
 Github doen't support in-web viewing of animation at the moment, but I'd be happy to show you more when we speak.
+
+![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/animationscreenshot.jpg)
