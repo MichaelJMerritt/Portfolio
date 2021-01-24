@@ -39,3 +39,5 @@ Often showing patterns in data that changes with time can be made more effective
 Github doen't support in-web viewing of animation at the moment, but I'd be happy to show you more when we speak.
 
 ![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/animationscreenshot.jpg)
+
+![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/animationscreenshot2.jpg)
