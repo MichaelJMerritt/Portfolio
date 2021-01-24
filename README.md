@@ -44,7 +44,7 @@ The convergence indicators on the chart were simply calculated by looking at eac
 
 Often showing patterns in data that changes with time can be made more effective with animation.  There are other times when showing a concept is easier with animation.
 
-Github doen't support in-web viewing of animation at the moment, but I'd be happy to show you more when we speak.
+Github doen't support in-web viewing of animation at the moment and many animation files are too large to upload in GIF form.  I'd be happy to show you more when we speak!
 
 ![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/animationscreenshot.jpg)
 
