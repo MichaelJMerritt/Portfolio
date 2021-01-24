@@ -26,7 +26,7 @@ Release the code to inspect the global dataset and find data streams that meet t
 
 Digging deep into data often uncovers details that aren't noticeable when looking at summaries.
 
-![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/election.jpg)
+![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/election.gif)
 
 ![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/election1.jpg)
 
