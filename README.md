@@ -1,6 +1,8 @@
 # Mike Merritt's Projects Created from Public Data
 
-These simple projects show methodology and tool usage without exposing sensitive company data.&nbsp;
+These simple projects show methodology and tool usage without exposing sensitive company data.
+&nbsp;
+&nbsp;
 
 ## 1. Dashboard Methodology
 
