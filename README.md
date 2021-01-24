@@ -35,6 +35,10 @@ Its not always best to stay in the details, it is often necessary to take a step
 
 ![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/mortalityhistory.jpg)
 
+The convergence indicators on the chart were simply calculated by looking at each individual date from the mortality data and watching for how long the value for that day took to stabilize:
+
+![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/converge.jpg)
+
 
 ## 4. Animation
 
