@@ -28,10 +28,6 @@ Digging deep into data often uncovers details that aren't noticeable when lookin
 
 ![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/election.gif)
 
-![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/election1.jpg)
-
-![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/election2.jpg)
-
 
 ## 3. Staying Grounded
 
