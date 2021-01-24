@@ -1,23 +1,24 @@
-# Mike Merritt
-## Projects Created from Public Data
+# Mike Merritt - Projects Created from Public Data
 
 These simple projects show methodology and tool usage without exposing any private data.
 
 ## 1. Dashboard Methodology
 
-First large amounts of data needs to be collected.  This can be public data downloaded or scraped from websites or it can be queried from private databases.  Often this data is not immediately in a useable form and must be processed in order to make sure the data type are
+First, large amounts of data needs to be collected.  This can be public data downloaded or scraped from websites or it can be queried from private databases.  Often this data is not immediately in a useable form and must be processed in order to make sure that any missing data is accounted for and the data types are consistent.
 
 ![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/bigdfa.jpg)
 
-Write algorithems to locate signals.
+Once the data is in a useable form and well understood it can be used to find indicators that are shown to signal changes might be on the way.  This can be accomplished with simple algorythems on data that is well understood or with machine learnging techniques if there are many features that affect the decision.
+
+In this case the indicator we want is a simple but effective indicator called on-balance volume that is a function of the stock's price and its trade volume.  It is calculated instantaneously, as a one week moving average and as a two week moving average.  A crossing of the two averages is flagged as an important event.  Since the crossings are of importance and not the actual value the OBV data is scaled down to fit on the ssame chart as the stock price line in black.
 
 ![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/tempdfa.jpg)
 
-Test the algorithem to make sure it is finding what is necessary.
+Once the calculations are complete it is a good idea to test the algorithem to make sure it is finding what is necessary.  In this case not every event that is flagged by the algorithem is important, however any general trajectory change in the stock price seems to be close to an indicator.  After a number of iterations I am happy with this set of curves and how they can indicate potential changes in the stock price.  
 
 ![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/test.jpg)
 
-Release the code to inspect the global dataset and find data streams that meet the perscribed conditions.
+Finally its time to release the code to inspect all of the data find indicators for all of the stock tickers.  The resulting data can be sorted in any number of ways, for instance below we find the stocks who's last signal was positive but ws many months ago, expecting to find stcoks who'se prices have been on long upward trajectories.  Success!
 
 ![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/final.jpg)
 
