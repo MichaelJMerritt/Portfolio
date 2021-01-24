@@ -1,8 +1,6 @@
 # Mike Merritt's Projects Created from Public Data
 
 These simple projects show methodology and tool usage without exposing sensitive company data.
-&nbsp;
-&nbsp;
 
 ## 1. Dashboard Methodology
 
@@ -22,7 +20,6 @@ Release the code to inspect the global dataset and find data streams that meet t
 
 ![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/final.jpg)
 
-
 ## 2. Getting Detailed
 
 Digging deep into data often uncovers details that aren't noticeable when looking at summaries, take the 2020 Presidential Election summary for instance.  Showing a map with the states colored according to who won that state is an effective image for showing how each candidate received their electoral votes, but does it provide any insight as to how the populace voted?  Was it a landslide or a close victory?
@@ -30,7 +27,6 @@ Digging deep into data often uncovers details that aren't noticeable when lookin
 Collecting the voting results data by county and then shading each county along a continuous color scale allows us to inspect the voting results in detail without cluttering the chart.  Many states show large areas of muted colors showing close races while others show definite strongholds for each candidate are clearly visible in the darker colors.  The chart is still simple and easy to read but shows much more information.
 
 ![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/election.gif)
-
 
 ## 3. Staying Grounded
 
@@ -41,7 +37,6 @@ Its not always best to stay in the details, it is often necessary to take a step
 The convergence indicators on the chart were simply calculated by looking at each individual date from the mortality data and watching for how long the value for that day took to stabilize.  From the chart below we can see that for most dates the mortality counts approach their final value between weeks five and six:
 
 ![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/converge.jpg)
-
 
 ## 4. Animation
 
