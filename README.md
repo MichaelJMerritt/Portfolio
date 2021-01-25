@@ -10,11 +10,11 @@ Large amounts of data needs to be collected before many analyses can be made.  T
 
 Once the data is in a useable form and well understood it can be used to find indicators that are shown to signal changes.  This can be accomplished with simple algorithms for data that is well understood or with machine learning techniques if there are many seemingly unrelated features that affect the decision.
 
-In this case the indicator we want is a simple but effective indicator called on-balance volume that is a function of the stock's price and its trade volume.  It is calculated first instantaneously and then as a one week moving average and a two week moving average.  A crossing of the two averages is flagged as an important event.  Since the crossings are of importance and not the actual value the OBV data is scaled down to fit on the same chart as the stock price line in black.
+In this case the indicator we want is a simple but effective indicator called on-balance volume that is a function of the stock's price and its trade volume.  It is calculated first instantaneously and then as a one week moving average and a two week moving average.  A crossing of the two averages is flagged as an important event.  
 
 ![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/tempdfa.jpg)
 
-Once the calculations are complete it is a good idea to test the algorithm to make sure it is able to find the desired indicators.  In this case not every event that is flagged by the algorithm is important, however any general trajectory change in the stock price seems to be close to an indicator.  After a number of iterations I am happy with this set of curves and how they can indicate potential changes in the stock price.  
+Once the calculations are complete it is a good idea to test the algorithm to make sure it is able to find the desired indicators.  Since the crossings are of importance and not the actual value the OBV data is scaled down to fit on the same chart as the stock price line in black for easier viewing.  In this case not every event that is flagged by the algorithm is important, however any general trajectory change in the stock price seems to be close to an indicator.  After a number of iterations I am happy with this set of curves and how they can indicate potential changes in the stock price.  
 
 ![Image of Chart](https://michaeljmerritt.github.io/Portfolio/Images/test.jpg)
 
@@ -26,17 +26,19 @@ Finally it is time to release the code to inspect all of the data and identify i
 
 Digging deep into data often uncovers details that aren't noticeable when looking at summaries, take the 2020 Presidential Election summary for instance.  Showing a map with the states colored according to who won that state is an effective image for showing how each candidate received their electoral votes, but does it provide any insight as to how the populace voted?
 
-Parsing the voting results data by county and then shading each county along a continuous color scale allows us to inspect the voting results in detail without cluttering the chart.  Many states show large areas of muted colors showing close races while others show darker colors definite indicating strongholds for each candidate.  The chart is still simple and easy to read but shows much more information.
+Parsing the voting results data by county and then shading each county along a continuous color scale allows us to inspect the voting results in detail without cluttering the chart.  Many states show large areas of muted colors that indicate close races with darker regions indicating strongholds for each candidate.  The chart is still simple and easy to read but shows much more information.
 
 ![Image of Map](https://michaeljmerritt.github.io/Portfolio/Images/election.gif)
 
 ## 3. Staying Grounded
 
-Its not always best to stay in the details, it is often necessary to take a step back and take a macro view of the data.  
+It is not always best to stay confined to the details, it is often necessary to take a step back and take a macro view of the data.  For this example I examine the mortality due to Covid-19 in the United States in 2020.  Different organizations and publications present different tallies with different conditions that make them hard to compare.  A simple way to get a high level look might be to compare the 2020 mortality data against prior years.
+
+When we do this we can see that the number of deaths in the US in 2020 was considerably higher than those in prior years and that the excess follows a pattern not unlike the different waves of Covid-19 that were reported throughout the year.  It is also interesting to note that the number of excess deaths as of mid-December is considerably higher than any of the reported Covid-19 tallies from that timeframe. 
 
 ![Image of Chart](https://michaeljmerritt.github.io/Portfolio/Images/mortalityhistorya.jpg)
 
-The convergence indicators on the chart were simply calculated by looking at each individual date from the mortality data and plotting how long it takes for the value for that day to stabilize.  From the chart below we can see that for most dates the mortality counts approach their final value between weeks five and six:
+The convergence indicators that are shown on the chart are calculated by collecting the value for each individual date for each week that the report is released.  This way we can see how that value changes from week to week and calculate how long it takes for the that day's tally to stabilize.  From the chart below we can see that for most dates the mortality counts approach their final value between weeks five and six.
 
 ![Image of Convegence](https://michaeljmerritt.github.io/Portfolio/Images/converge.jpg)
 
@@ -44,7 +46,7 @@ The convergence indicators on the chart were simply calculated by looking at eac
 
 Often showing patterns in data that changes with time can be made more effective with animation.  There are other times when showing a concept is easier with animation.
 
-Github doen't support in-web viewing of animation at the moment and many animation files are too large to upload in GIF form.  I'd be happy to show you more when we speak!
+GitHub doesn't support in-web viewing of video at the moment and some animation files are too large to upload in GIF form.  I'd be happy to show you more when we speak!
 
 ![Image of Animation Screenshots](https://michaeljmerritt.github.io/Portfolio/Images/animationscreenshot.jpg)
 
