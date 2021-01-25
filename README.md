@@ -22,7 +22,11 @@ Finally it is time to apply the code to inspect all of the data and identify ind
 
 ![Image of Many Charts](https://michaeljmerritt.github.io/Portfolio/Images/final.jpg)
 
-The new calculation is ready to be incorporated into a dashboard.
+The new calculation is ready to be incorporated into a dashboard by finding the largest signal positive and negative indicators from the past week.
+
+![Image of Buy Signals](https://michaeljmerritt.github.io/Portfolio/Images/dashbuy.jpg)
+
+![Image of Sell Signals](https://michaeljmerritt.github.io/Portfolio/Images/dashsell.jpg)
 
 ## 2. Getting Detailed
 
