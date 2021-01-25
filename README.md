@@ -18,9 +18,11 @@ Once the calculations are complete it is a good idea to test the algorithm to ma
 
 ![Image of Chart](https://michaeljmerritt.github.io/Portfolio/Images/test.jpg)
 
-Finally it is time to release the code to inspect all of the data and identify indicators for all of the stock tickers.  The resulting data can be sorted in any number of ways, for instance below we find the stocks whose last signal was positive but was a long time ago.  In this case we should expect to find stocks whose prices have been on long upward trajectories.  This appears to be the case, although a few of them appear to be nearing a downturn signal.  If I owned any of those stocks I would be researching the company to determine if there is a reason to be concerned.
+Finally it is time to apply the code to inspect all of the data and identify indicators for all of the stock tickers.  The resulting data can be sorted in any number of ways, for instance below we find the stocks whose last signal was positive but was a long time ago.  In this case we should expect to find stocks whose prices have been on long upward trajectories.  This appears to be the case, although a few of them appear to be nearing a downturn signal.  
 
 ![Image of Many Charts](https://michaeljmerritt.github.io/Portfolio/Images/final.jpg)
+
+The new calculation is ready to be incorporated into a dashboard.
 
 ## 2. Getting Detailed
 
