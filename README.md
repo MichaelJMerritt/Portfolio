@@ -32,7 +32,7 @@ The new calculation is ready to be incorporated into a dashboard by finding the 
 
 When presenting cyclic data it can help to overlay each cycle's data on top of each other and watch for changes.  It is easy to visualize slow drift in signals in this manner, and this type of inspection will also make seeing outliers or otherwise odd behavior in data.  
 
-![Image of Cyclic Data](https://michaeljmerritt.github.io/Portfolio/Images/CyclicData.jpg)
+![Image of Cyclic Data](https://michaeljmerritt.github.io/Portfolio/Images/CyclicSignsls.gif)
 
 ## 3. Getting Detailed
 
