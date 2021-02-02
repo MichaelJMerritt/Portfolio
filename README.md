@@ -28,7 +28,13 @@ The new calculation is ready to be incorporated into a dashboard by finding the 
 
 ![Image of Sell Signals](https://michaeljmerritt.github.io/Portfolio/Images/dashsella.jpg)
 
-## 2. Getting Detailed
+## 2. Cyclic Data
+
+When presenting cyclic data it can help to overlay each cycle's data on top of each other and watch for changes.  It is easy to visualize slow drift in signals in this manner, and this type of inspection will also make seeing outliers or otherwise odd behavior in data.  
+
+![Image of Cyclic Data](https://michaeljmerritt.github.io/Portfolio/Images/CyclicData.jpg)
+
+## 3. Getting Detailed
 
 Digging deep into data often uncovers details that aren't noticeable when looking at summaries, take the 2020 Presidential Election summary for instance.  Showing a map with the states colored according to who won that state is an effective image for showing how each candidate received their electoral votes, but does it provide any insight as to how the populace voted?
 
@@ -36,7 +42,7 @@ Parsing the voting results data by county and then shading each county along a c
 
 ![Image of Map](https://michaeljmerritt.github.io/Portfolio/Images/election.gif)
 
-## 3. Staying Grounded
+## 4. Staying Grounded
 
 It is not always best to stay confined to the details, it is often necessary to take a step back and take a macro view of the data.  For this example I examine the mortality due to Covid-19 in the United States in 2020.  Different organizations and publications present different tallies with different conditions that make them hard to compare.  A simple way to get a high level look might be to compare the 2020 mortality data against prior years.
 
@@ -48,7 +54,7 @@ The convergence indicators that are shown on the chart are calculated by collect
 
 ![Image of Convegence](https://michaeljmerritt.github.io/Portfolio/Images/convergeb.jpg)
 
-## 4. Animation
+## 5. Animation
 
 Often showing patterns in data that changes with time can be made more effective with animation.  There are other times when showing a concept is easier with animation.
 
