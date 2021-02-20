@@ -48,13 +48,13 @@ It is not always best to stay confined to the details, it is often necessary to 
 
 When we do this we can see that the number of deaths in the US in 2020 was considerably higher than those in prior years and that the excess follows a pattern not unlike the different waves of Covid-19 that were reported throughout the year.  It is also interesting to note that the number of excess deaths as of mid-December is considerably higher than any of the reported Covid-19 tallies from that timeframe. 
 
-![Image of Chart](https://michaeljmerritt.github.io/Portfolio/Images/mortalityhistoryd.jpg)
+![Image of Chart](https://michaeljmerritt.github.io/Portfolio/Images/mortalityhistorye.jpg)
 
 The convergence indicators that are shown on the chart are calculated by collecting the value for each individual date for each week that the report is released.  This way we can see how that value changes from week to week and calculate how long it takes for the that day's tally to stabilize.  From the chart below we can see that for most dates the mortality counts approach their final value between weeks seven and eight.
 
 An interesting artifact that this chart shows is that during the holidays at the end of December and early January there was a week in which it would appear reporting was put on hold.  The week of very few death reports followed by a significant spike in reported deaths can be seen rippling back throught the data for most of January.
 
-![Image of Convegence](https://michaeljmerritt.github.io/Portfolio/Images/converged.jpg)
+![Image of Convegence](https://michaeljmerritt.github.io/Portfolio/Images/convergee.jpg)
 
 ## 5. Animation
 
