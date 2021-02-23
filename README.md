@@ -2,7 +2,7 @@
 
 These simple projects show methodology and tool usage without exposing any private data.
 
-## 1. Dashboard Methodology
+## 1. Dashboard Methodology using Python and Power BI
 
 Large amounts of data needs to be collected before many analyses can be made.  This can be public data downloaded or scraped from websites or it can be queried from private databases.  Often this data is not immediately in a useable form and must be processed in order to make sure that any missing data is accounted for and the data types are consistent.  In this case we've pulled nearly 600,000 lines of daily stock price and volume data of many different stocks from Yahoo! Finance.
 
