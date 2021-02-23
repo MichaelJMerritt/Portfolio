@@ -18,15 +18,11 @@ Once the calculations are complete it is a good idea to test the algorithm to ma
 
 ![Image of Chart](https://michaeljmerritt.github.io/Portfolio/Images/test.jpg)
 
-Finally it is time to apply the code to inspect all of the data and identify indicators for all of the stock tickers.  The resulting data can be sorted in any number of ways, for instance below we find the stocks whose last signal was positive but was a long time ago.  In this case we should expect to find stocks whose prices have been on long upward trajectories.  This appears to be the case, although a few of them appear to be nearing a downturn signal.  
+Finally it is time to apply the code to inspect all of the data and identify indicators for all of the stock tickers.  The resulting data can be sorted in any number of ways, for instance below we find the stocks whose last signal was positive but was a long time ago.  However in this case I will upload this data to a new Microsoft PowerBI project along with another table that has summary information about each stock in the dataset.  I will link these tables by the TICKER column and create a dashboard that allows me to quickly review any of the business sector or industry high level trends, and then drill down into the individual stocks that make up that sector to review their performance.
 
-![Image of Many Charts](https://michaeljmerritt.github.io/Portfolio/Images/final.jpg)
+![Image of Buy Signals](https://michaeljmerritt.github.io/Portfolio/Images/PBIDesign.jpg)
 
-The new calculation is ready to be incorporated into a dashboard by finding the positive and negative indicators with the largest signal strength from the past week.
-
-![Image of Buy Signals](https://michaeljmerritt.github.io/Portfolio/Images/dashbuya.jpg)
-
-![Image of Sell Signals](https://michaeljmerritt.github.io/Portfolio/Images/dashsella.jpg)
+![Image of Sell Signals](https://michaeljmerritt.github.io/Portfolio/Images/PBIReport.jpg)
 
 ## 2. Cyclic Data
 
