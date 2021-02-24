@@ -20,11 +20,11 @@ Once the calculations are complete it is a good idea to test the algorithm to ma
 
 Finally it is time to apply the code to inspect all of the data and identify indicators for all of the stock tickers.  The resulting data can be sorted in any number of ways, for instance below we find the stocks whose last signal was positive but was a long time ago.  However in this case I will upload this data to a new Microsoft PowerBI project along with another table that has summary information about each stock in the dataset.  
 
-![Image of Buy Signals](https://michaeljmerritt.github.io/Portfolio/Images/PBIDesign.jpg)
+![Image of Tables](https://michaeljmerritt.github.io/Portfolio/Images/PBIDesign.jpg)
 
 I will link these tables by the TICKER column and create a dashboard that allows me to quickly review any of the business sector or industry high level trends, and then drill down into the individual stocks that make up that sector to review their performance.
 
-![Image of Sell Signals](https://michaeljmerritt.github.io/Portfolio/Images/PBIReport.jpg)
+![Image of Dashboard](https://michaeljmerritt.github.io/Portfolio/Images/PBIReport.jpg)
 
 This is helpful for looking at information that is already well understood, however when the data is not well understood a very simple way to isolate meaningful data points is to plot 2 measurements in a scatter plot.  In this case, for each stock I calculate how close the stock price is to its recent high values and chart it against the ratio of its 2 week moving average vs its 4 week moving average.  
 
@@ -32,7 +32,7 @@ So a point high on the Y axis is nearing a recent maximum and a point high along
 
 The dashboard below allows me to slice the data by Sector, then choose individual data points from the scatter plot to show their recent price history on the line chart.
 
-![Image of Sell Signals](https://michaeljmerritt.github.io/Portfolio/Images/PBIReport2.jpg)
+![Image of Scatter Dashboard](https://michaeljmerritt.github.io/Portfolio/Images/PBIReport2.jpg)
 
 ## 2. Cyclic Data
 
