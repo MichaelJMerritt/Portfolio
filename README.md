@@ -26,11 +26,11 @@ I will link these tables by the TICKER column and create a dashboard that allows
 
 ![Image of Dashboard](https://michaeljmerritt.github.io/Portfolio/Images/PBIReport.jpg)
 
-This is helpful for looking at information that is already well understood, however when the data is not well understood a very simple way to isolate meaningful data points is to plot 2 measurements in a scatter plot.  In this case, for each stock I calculate how close the stock price is to its recent high values and chart it against the ratio of its 2 week moving average vs its 4 week moving average.  
+This is helpful for looking at information that is already well understood, however when the data is not well understood a very simple way to isolate meaningful data points is to plot 2 measurements in a scatter plot.  In this case, for each stock I calculate how close the stock price is to its recent high values and chart it against the ratio of its two week moving average vs its four week moving average.  
 
-So a point high on the Y axis is nearing a recent maximum and a point high along the X axis shows a price rising faster in the past 2 weeks than the past 4.  So in this case points in the upper right quadrant of the chart will be of most interest to find new stocks that are currently showing strong momentum.
+So a point high on the Y axis is nearing a recent maximum and a point high along the X axis shows a price rising faster in the past two weeks than the past four.  So in this case points in the upper right quadrant of the chart will be of most interest to find new stocks that are currently showing strong momentum.
 
-The dashboard below allows me to slice the data by Sector, then choose individual data points from the scatter plot to show their recent price history on the line chart.
+The dashboard below allows me to slice the data by sector, then choose individual data points from the scatter plot to show their recent price history on the line chart.
 
 ![Image of Scatter Dashboard](https://michaeljmerritt.github.io/Portfolio/Images/PBIReport2.jpg)
 
