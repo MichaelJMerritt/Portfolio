@@ -67,5 +67,5 @@ Often showing patterns in data that changes with time can be made more effective
 GitHub doesn't support in-web viewing of video at the moment and some animation files are too large to upload in GIF form.  I'd be happy to show you more when we speak!
 
 ![Image of Animation Screenshots](https://michaeljmerritt.github.io/Portfolio/Images/animationscreenshot.jpg)
-
+![Another Image of Animation Screenshots](https://michaeljmerritt.github.io/Portfolio/Images/infectionstudy.mp4)
 ![Another Image of Animation Screenshots](https://michaeljmerritt.github.io/Portfolio/Images/animationscreenshot2.jpg)
