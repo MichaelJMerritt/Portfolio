@@ -82,4 +82,4 @@ Digging deep into data often uncovers details that aren't noticeable when lookin
 
 Parsing the voting results data by county and then shading each county along a continuous color scale allows us to inspect the voting results in detail without cluttering the chart.  Many states show large areas of muted colors that indicate close races with darker regions indicating strongholds for each candidate.  The chart is still simple and easy to read but shows much more information.
 
-![Image of Map](https://michaeljmerritt.github.io/Portfolio/Images/election.gif)
+![Image of Map](https://michaeljmerritt.github.io/Portfolio/Images/2020 Election Small.gif)
