@@ -4,6 +4,44 @@ These simple projects show methodology and tool usage without exposing any priva
 
 ## 1. Dashboard Methodology using Python and Power BI
 
+For this analysis I've pulled mortality data in the USA from 3 different sources in the Center for Disease Control (CDC) database. First, a large set of historical data from 2014 - 2018 that is stable. Second, a dataset from the end of 2020 that had provisional, semi-stable mortality data for 2019. Finally the most recent dataset from 2021 that has provisional mortality data for 2020 and 2021 year to date.
+
+These datasets overlap, so I used Python and Pandas to concatenate them into a single data table and then remove all duplicate data before bringing the cleaned data set into PowerBI.  From this point I can plot the mortality for each year on the same chart. The report will allow the data to be sliced by year and US state, and I also include the breakout chart of causes of death for any slice.  Since any death can be from multiple causes these values do not sum to the actual mortality numbers.  
+
+When I do this I can see that the number of deaths in the US in 2020 and 2021 were considerably higher than those in prior years and that the excess follows a pattern not unlike the different waves of Covid-19 that were reported in that time.  
+
+![Image of Mortality](https://michaeljmerritt.github.io/Portfolio/Images/mort00.jpg)
+
+Individually choosing the year 2019 provides baseline mortality for an average year in the time before the Covid pandemic.
+
+![Image of Mortality 2019](https://michaeljmerritt.github.io/Portfolio/Images/mort01.jpg)
+
+Choosing 2020 shows a significant increase in mortality in the first year of the Covid pandemic.
+
+![Image of Mortality 2020](https://michaeljmerritt.github.io/Portfolio/Images/mort02.jpg)
+
+Choosing 2021 shows that mortality in the second year of the pandemic is on track to exceed 2020.  It is als interesting to notefrom the cause of death section that the percentage of deaths of natural causes remains more or less constant despite the increase due to Covid.  This suggests that the 
+
+![Image of Mortality 2021](https://michaeljmerritt.github.io/Portfolio/Images/mort03.jpg)
+
+For this next analysis I use only a single dataset from the CDC that has detailed information on Covid cases in the US categorized by age, race and sex.  Each case also has information regarding the severity of the case including hospitalization and death. 
+
+In the charts I've shown the Covid identified cases in the left pane, the deaths in the top-center pane and the death rate by age group in the bottom-center pane.  I added a number of slicers to the right to further study different sections of the population.
+
+Its interesting to note that while looking at the total population the death rate increases non-linearly with age.  In fact the death rate for people under 40 years old is extremely small.
+
+![Image of Cases](https://michaeljmerritt.github.io/Portfolio/Images/Cases00.jpg)
+
+Clicking the 80+ age group show that while the total number of Covid cases is relatively small the death rate from these cases in very large.
+
+![Image of Cases 80](https://michaeljmerritt.github.io/Portfolio/Images/Cases01.jpg)
+
+Clicking the 30-39 age group shows that while folks in this age group contracted five times as many Covid cases as 80+ year old people there were only one twentieth as many deaths.
+
+![Image of Cases 30](https://michaeljmerritt.github.io/Portfolio/Images/Cases02.jpg)
+
+## 1a. Dashboard Methodology using Python and Power BI
+
 Large amounts of data needs to be collected before many analyses can be made.  This can be public data downloaded or scraped from websites or it can be queried from private databases.  Often this data is not immediately in a useable form and must be processed in order to make sure that any missing data is accounted for and the data types are consistent.  In this case I've pulled nearly 600,000 lines of daily stock price and volume data of nearly 7,000 different stocks from Yahoo! Finance.  Each stock was pulled from a separate web page and then needed to be combined into a single data file.
 
 ![Image of DataFrame](https://michaeljmerritt.github.io/Portfolio/Images/bigdfa.jpg)
@@ -45,27 +83,3 @@ Digging deep into data often uncovers details that aren't noticeable when lookin
 Parsing the voting results data by county and then shading each county along a continuous color scale allows us to inspect the voting results in detail without cluttering the chart.  Many states show large areas of muted colors that indicate close races with darker regions indicating strongholds for each candidate.  The chart is still simple and easy to read but shows much more information.
 
 ![Image of Map](https://michaeljmerritt.github.io/Portfolio/Images/election.gif)
-
-## 4. Staying Grounded
-
-It is not always best to stay confined to the details, it is often necessary to take a step back and take a macro view of the data.  For this example I examine the mortality due to Covid-19 in the United States in 2020.  Different organizations and publications present different tallies with different conditions that make them hard to compare.  A simple way to get a high level look might be to compare the 2020 mortality data against prior years.
-
-When we do this we can see that the number of deaths in the US in 2020 was considerably higher than those in prior years and that the excess follows a pattern not unlike the different waves of Covid-19 that were reported throughout the year.  It is also interesting to note that the number of excess deaths as of mid-December is considerably higher than any of the reported Covid-19 tallies from that timeframe. 
-
-![Image of Chart](https://michaeljmerritt.github.io/Portfolio/Images/mortalityhistoryh.jpg)
-
-The convergence indicators that are shown on the chart are calculated by collecting the value for each individual date for each week that the report is released.  This way we can see how that value changes from week to week and calculate how long it takes for the that day's tally to stabilize.  From the chart below we can see that for most dates the mortality counts approach their final value between weeks seven and eight.
-
-An interesting artifact that this chart shows is that during the holidays at the end of December and early January there was a week in which it would appear reporting was put on hold.  The week of very few death reports followed by a significant spike in reported deaths can be seen rippling back throught the data for most of January.
-
-![Image of Convegence](https://michaeljmerritt.github.io/Portfolio/Images/convergeh.jpg)
-
-## 5. Animation
-
-Often showing patterns in data that changes with time can be made more effective with animation.  There are other times when showing a concept is easier with animation.
-
-GitHub doesn't support in-web viewing of video at the moment and some animation files are too large to upload in GIF form.  I'd be happy to show you more when we speak!
-
-![Image of Animation Screenshots](https://michaeljmerritt.github.io/Portfolio/Images/animationscreenshot.jpg)
-
-![Another Image of Animation Screenshots](https://michaeljmerritt.github.io/Portfolio/Images/animationscreenshot2.jpg)
