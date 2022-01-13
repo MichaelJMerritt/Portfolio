@@ -12,15 +12,15 @@ When I do this I can see that the number of deaths in the US in 2020 and 2021 we
 
 ![Image of Mortality](https://michaeljmerritt.github.io/Portfolio/Images/mort00.jpg)
 
-Individually choosing the year 2019 provides baseline mortality for an average year in the time before the Covid pandemic.
+Individually choosing the year 2019 provides baseline mortality for an average year in the time before the Covid pandemic:
 
 ![Image of Mortality 2019](https://michaeljmerritt.github.io/Portfolio/Images/mort01.jpg)
 
-Choosing 2020 shows a significant increase in mortality in the first year of the Covid pandemic.
+Choosing 2020 shows a significant increase in mortality in the first year of the Covid pandemic:
 
 ![Image of Mortality 2020](https://michaeljmerritt.github.io/Portfolio/Images/mort02.jpg)
 
-Choosing 2021 shows that mortality in the second year of the pandemic is on track to exceed 2020.  It is als interesting to notefrom the cause of death section that the percentage of deaths of natural causes remains more or less constant despite the increase due to Covid.  This suggests that the 
+Choosing 2021 shows that mortality in the second year of the pandemic is on track to exceed 2020.  It is als interesting to notefrom the cause of death section that the percentage of deaths of natural causes remains more or less constant despite the increase due to Covid.  In 2020 and 2021 when the Covid related causes of death are introduced the heart related causes of death are reduced.  This suggests tha Covid is proving more deadly to those with heart realted issues than healthy people.
 
 ![Image of Mortality 2021](https://michaeljmerritt.github.io/Portfolio/Images/mort03.jpg)
 
