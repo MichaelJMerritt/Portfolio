@@ -42,7 +42,7 @@ Clicking the 30-39 age group shows that while folks in this age group contracted
 
 ![Image of Cases 30](https://michaeljmerritt.github.io/Portfolio/Images/Cases02.jpg)
 
-## 1a. Dashboard Methodology using Python and Power BI
+## 2. Collecting, Combinging and Cleaning Fragmented Data
 
 Large amounts of data needs to be collected before many analyses can be made.  This can be public data downloaded or scraped from websites or it can be queried from private databases.  Often this data is not immediately in a useable form and must be processed in order to make sure that any missing data is accounted for and the data types are consistent.  In this case I've pulled nearly 600,000 lines of daily stock price and volume data of nearly 7,000 different stocks from Yahoo! Finance.  Each stock was pulled from a separate web page and then needed to be combined into a single data file.
 
