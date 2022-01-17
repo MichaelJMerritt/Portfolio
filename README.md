@@ -1,7 +1,5 @@
 # Mike Merritt - Projects Created from Public Data
 
-[Click](https://michaeljmerritt.github.io/Portfolio/Images/covidmp.mp4)
-
 These simple projects show methodology and tool usage without exposing any private data.
 
 ## 1. Dashboard Methodology using Python and Power BI
