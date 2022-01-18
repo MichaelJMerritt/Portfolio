@@ -88,4 +88,4 @@ Parsing the voting results data by county and then shading each county along a c
 
 ## 5. Animation
 
-[Click here](https://michaeljmerritt.github.io/Portfolio/Images/InfectionStudy.mp4) to view an anmimation that shows.
+[Click here](https://michaeljmerritt.github.io/Portfolio/Images/infectionstudy.mp4) to view an anmimation that shows.
