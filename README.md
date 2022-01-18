@@ -24,7 +24,7 @@ Choosing 2021 shows that overall mortality in the US in the second year of the p
 
 ![Image of Mortality 2021](https://michaeljmerritt.github.io/Portfolio/Images/mort03.jpg)
 
-It is also interesting to note from the cause of death section that the percentage of deaths of natural causes remains more or less constant despite the increase in mortality due to Covid.  In 2020 and 2021 when the Covid related causes of death are introduced the heart and neoplasm/cancer related causes of death are reduced.  This suggests tha Covid is proving more deadly to those with heart and cancer realted issues than healthy people.
+It is also interesting to note from the cause of death section that the percentage of deaths of natural causes remains more or less constant despite the increase in mortality due to Covid.  In 2020 and 2021 when the Covid related causes of death are introduced the heart and neoplasm/cancer related causes of death are reduced.  This suggests that Covid is proving more deadly to those with heart and cancer realted issues than healthy people.
 
 For the next analysis I use only a single dataset from the CDC that has detailed information on Covid cases in the US categorized by age, race and sex.  Each case also has information regarding the severity of the case including hospitalization and death. 
 
@@ -42,7 +42,9 @@ Clicking the 30-39 age group shows that while folks in this age group contracted
 
 ![Image of Cases 30](https://michaeljmerritt.github.io/Portfolio/Images/Cases02.jpg)
 
-## 2. Collecting, Combinging and Cleaning Fragmented Data
+Often animation can provide additional perspective to a visualization.  [Click here](https://michaeljmerritt.github.io/Portfolio/Images/Covid19Jan2022.mp4) to view an animation that shows the rise and fall of recorded Covid19 infections by state over the past year and a half.  From this short clip you can follow how the hot spots shift over time and when the various waves of Covid rise and recede.
+
+## 2. Collecting, Combining and Cleaning Fragmented Data
 
 Large amounts of data needs to be collected before many analyses can be made.  This can be public data downloaded or scraped from websites or it can be queried from private databases.  Often this data is not immediately in a useable form and must be processed in order to make sure that any missing data is accounted for and the data types are consistent.  In this case I've pulled nearly 600,000 lines of daily stock price and volume data of nearly 7,000 different stocks from Yahoo! Finance.  Each stock was pulled from a separate web page and then needed to be combined into a single data file.
 
@@ -88,4 +90,6 @@ Parsing the voting results data by county and then shading each county along a c
 
 ## 5. Animation
 
-[Click here](https://michaeljmerritt.github.io/Portfolio/Images/infectionstudy.mp4) to view an anmimation that attempts to demonstrate how an infection spreads though a poopulation under different conditions.  .
+[Click here](https://michaeljmerritt.github.io/Portfolio/Images/infectionstudy.mp4) to view an animation that attempts to demonstrate how an infection spreads though a population under different conditions.  The left pane is the baseline with a 20% infection rate and a contagious period of 150 steps.  The infection rate is the probability a contagious (red) sample will infect a passing healthy (blue) sample.  The next pane shows how the same population’s situation changes when the infection rate drops to 10% while keeping the contagious period the same.  The third pane brings the infection rate back up to 20% but reduces the contagious period by half down to 75 steps.  Finally the last pane reduces the infection rate to 10% and keeping the contagious period at 75 steps.
+
+This model shows that for this particular set of circumstances the best way to substantially affect the spread of red dots is to both reduce the infection rate and the contagious period.  More what-if types of analyses could be run if one of these proves difficult.  For instance if the contagious period is something that cannot be affected then another analysis could be run with an even lower infection rate.  The results of these analyses could inform decisions on what style mask is required to reduce transmission or even if quarantine is necessary to stop the spread of red dots.
