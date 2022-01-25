@@ -2,7 +2,20 @@
 
 These simple projects show methodology and tool usage without exposing any private data.
 
-## 1. Dashboard Methodology using Python and Power BI
+## 1. Computer Vision using Python 
+
+Computer vision can be harnessed to analyze images and videos, especially under controlled conditions.   
+
+[CLICK HERE](https://michaeljmerritt.github.io/Portfolio/Images/Foam2.mp4) to see an example of how testing with visual performance metrics can be automated.  In this case it was necessary to measure the amount of foam growth after a pour of nitrogenated coffee.  The test recorded dozens of videos per hour and each needed to be analyzed and the foam heights measured as well as the time it took for the growth to stop.  I created a script to scan a folder, collect the videos within it, analyze each video and output a data file with the measurements tabulated.  In this case the engineer can review the data file and review individual videos if something doesn't look right.
+
+## 2. Animating Cyclic Data
+
+When presenting cyclic data it can help to overlay each cycle's graph on top of each other and watch for changes.  It is easy to visualize slow drift in signals in this manner, and this type of inspection will also make seeing outliers or otherwise odd behavior in data.  
+
+![Image of Cyclic Data](https://michaeljmerritt.github.io/Portfolio/Images/CyclicSignsls.gif)
+
+
+## 3. Dashboard Methodology using Python and Power BI
 
 For this analysis I've pulled overall mortality data in the USA from 3 different sources in the Center for Disease Control (CDC) database. First, a large set of historical data from 2014 - 2018 that is stable. Second, a dataset from the end of 2020 that had provisional, semi-stable mortality data for 2019. Finally the most recent dataset from 2021 that has provisional mortality data for 2020 and 2021 year to date.
 
@@ -44,7 +57,7 @@ Clicking the 30-39 age group shows that while folks in this age group contracted
 
 Often animation can provide additional perspective to a visualization.  [Click here](https://michaeljmerritt.github.io/Portfolio/Images/Covid19Jan2022.mp4) to view an animation that shows the rise and fall of recorded Covid19 infections by state over the past year and a half.  From this short clip you can follow how the hot spots shift over time and when the various waves of Covid rise and recede.
 
-## 2. Collecting, Combining and Cleaning Fragmented Data
+## 4. Collecting, Combining and Cleaning Fragmented Data
 
 Large amounts of data needs to be collected before many analyses can be made.  This can be public data downloaded or scraped from websites or it can be queried from private databases.  Often this data is not immediately in a useable form and must be processed in order to make sure that any missing data is accounted for and the data types are consistent.  In this case I've pulled nearly 600,000 lines of daily stock price and volume data of nearly 7,000 different stocks from Yahoo! Finance.  Each stock was pulled from a separate web page and then needed to be combined into a single data file.
 
@@ -74,13 +87,7 @@ This is helpful for looking at information that is already well understood, howe
 
 So a point high on the Y axis is stock with its price near a recent maximum and a point high along the X axis shows a price rising faster in the past two weeks than the past four.  So in this case points in the upper right quadrant of the chart will be of most interest to find new stocks that are showing strong momentum.
 
-## 3. Cyclic Data
-
-When presenting cyclic data it can help to overlay each cycle's data on top of each other and watch for changes.  It is easy to visualize slow drift in signals in this manner, and this type of inspection will also make seeing outliers or otherwise odd behavior in data.  
-
-![Image of Cyclic Data](https://michaeljmerritt.github.io/Portfolio/Images/CyclicSignsls.gif)
-
-## 4. Getting Detailed
+## 5. Getting Detailed
 
 Digging deep into data often uncovers details that aren't noticeable when looking at summaries, take the 2020 Presidential Election summary for instance.  Showing a map with the states colored according to who won that state is an effective image for showing how each candidate received their electoral votes, but does it provide any insight as to how the populace voted?
 
@@ -88,7 +95,7 @@ Parsing the voting results data by county and then shading each county along a c
 
 ![Image of Map](https://michaeljmerritt.github.io/Portfolio/Images/2020ElectionSmall.gif)
 
-## 5. Animation
+## 6. Animation
 
 [Click here](https://michaeljmerritt.github.io/Portfolio/Images/infectionstudy.mp4) to view an animation that attempts to demonstrate how an infection spreads though a population under different conditions.  The left pane is the baseline with a 20% infection rate and a contagious period of 150 steps.  The infection rate is the probability a contagious (red) sample will infect a passing healthy (blue) sample.  The next pane shows how the same population’s situation changes when the infection rate drops to 10% while keeping the contagious period the same.  The third pane brings the infection rate back up to 20% but reduces the contagious period by half down to 75 steps.  Finally the last pane reduces the infection rate to 10% and keeping the contagious period at 75 steps.
 
