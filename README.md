@@ -33,7 +33,7 @@ Choosing 2020 shows a significant increase in overall mortality in the first yea
 
 ![Image of Mortality 2020](https://michaeljmerritt.github.io/Portfolio/Images/mort02.jpg)
 
-Choosing 2021 shows that overall mortality in the US in the second year of the pandemic is on track to exceed 2020.  
+Choosing 2021 shows that overall mortality in the US in the second year of the pandemic has exceeded 2020.  From the looks of the data it appears as if the December numbers have not yet stabilized so I expect that the total will continue to rise for a few more weeks.  
 
 ![Image of Mortality 2021](https://michaeljmerritt.github.io/Portfolio/Images/mort03.jpg)
 
