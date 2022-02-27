@@ -45,15 +45,15 @@ In the charts I've charted the reported cases of Covid in the left panel, the Co
 
 Its interesting to note that while looking at the total population the death rate increases non-linearly with age.  In fact the death rate for people under 40 years old is extremely small.
 
-![Image of Cases](https://michaeljmerritt.github.io/Portfolio/Images/Cases00.jpg)
+![Image of Cases](https://michaeljmerritt.github.io/Portfolio/Images/Cases00a.jpg)
 
 Clicking the 80+ age group highlights that while the total number of Covid cases is relatively small the death rate from these cases in very large.
 
-![Image of Cases 80](https://michaeljmerritt.github.io/Portfolio/Images/Cases01.jpg)
+![Image of Cases 80](https://michaeljmerritt.github.io/Portfolio/Images/Cases01a.jpg)
 
 Clicking the 30-39 age group shows that while folks in this age group contracted five times as many Covid cases as 80+ year old people there were only one twentieth as many deaths.
 
-![Image of Cases 30](https://michaeljmerritt.github.io/Portfolio/Images/Cases02.jpg)
+![Image of Cases 30](https://michaeljmerritt.github.io/Portfolio/Images/Cases02a.jpg)
 
 Often animation can provide additional perspective to a visualization.  [Click here](https://michaeljmerritt.github.io/Portfolio/Images/Covid19Jan2022.mp4) to view an animation that shows the rise and fall of recorded Covid19 infections by state over the past year and a half.  From this short clip you can follow how the hot spots shift over time and when the various waves of Covid rise and recede.
 
