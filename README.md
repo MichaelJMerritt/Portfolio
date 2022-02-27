@@ -33,7 +33,7 @@ Choosing 2020 shows a significant increase in overall mortality in the first yea
 
 ![Image of Mortality 2020](https://michaeljmerritt.github.io/Portfolio/Images/mort02a.jpg)
 
-Choosing 2021 shows that overall mortality in the US in the second year of the pandemic has exceeded that of the first year.  It's likely that the data for 2021 is for the most part stable now, but I can see from the sharp change in direction of the 2022 curve that the January 2022 numbers have not yet stabilized.    
+Choosing 2021 shows that overall mortality in the US in the second year of the pandemic has exceeded that of the first year.  It's likely that the data for 2021 is for the most part stable now, but it appears that deaths in January of 2022 are rising faster than in prior years.  I can also see from the sharp change in direction of the 2022 curve that the January 2022 numbers have not yet stabilized, so we need to wait for more data to see if this trend will continue into February.    
 
 ![Image of Mortality 2021](https://michaeljmerritt.github.io/Portfolio/Images/mort03a.jpg)
 
