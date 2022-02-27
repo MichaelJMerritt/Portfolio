@@ -51,7 +51,7 @@ Clicking the 80+ age group highlights that while the total number of Covid cases
 
 ![Image of Cases 80](https://michaeljmerritt.github.io/Portfolio/Images/Cases01a.jpg)
 
-Clicking the 30-39 age group shows that while folks in this age group contracted five times as many Covid cases as 80+ year old people there were only one twentieth as many deaths.
+Clicking the 30-39 age group shows that while folks in this age group contracted six times as many Covid cases as 80+ year old people there were only one twentieth as many deaths.
 
 ![Image of Cases 30](https://michaeljmerritt.github.io/Portfolio/Images/Cases02a.jpg)
 
