@@ -55,7 +55,7 @@ Clicking the 30-39 age group shows that while folks in this age group contracted
 
 ![Image of Cases 30](https://michaeljmerritt.github.io/Portfolio/Images/Cases2a.jpg)
 
-Often animation can provide additional perspective to a visualization.  [Click here](https://michaeljmerritt.github.io/Portfolio/Images/Covid19Jan2022.mp4) to view an animation that shows the rise and fall of recorded Covid19 infections by state over the past year and a half.  From this short clip you can follow how the hot spots shift over time and when the various waves of Covid rise and recede.
+Often animation can provide additional perspective to a visualization.  [Click here](https://michaeljmerritt.github.io/Portfolio/Images/CovidMarch2022.mp4) to view an animation that shows the rise and fall of recorded Covid19 infections by state over the past year and a half.  From this short clip you can follow how the hot spots shift over time and when the various waves of Covid rise and recede.
 
 ## 4. Collecting, Combining and Cleaning Fragmented Data
 
