@@ -33,9 +33,19 @@ Choosing 2020 shows a significant increase in overall mortality in the first yea
 
 ![Image of Mortality 2020](https://michaeljmerritt.github.io/Portfolio/Images/Mort2a.jpg)
 
-Choosing 2021 shows that overall mortality in the US in the second year of the pandemic has exceeded that of the first year.  It's likely that the data for 2021 is for the most part stable now, but it appears that deaths in January of 2022 are rising faster than in prior years.  I can also see from the sharp change in direction of the 2022 curve that the January 2022 numbers have not yet stabilized, so we need to wait for more data to see if this trend will continue into February.    
+Choosing 2021 shows that overall mortality in the US in the second year of the pandemic has exceeded that of the first year:
 
 ![Image of Mortality 2021](https://michaeljmerritt.github.io/Portfolio/Images/Mort3a.jpg)
+
+Its clear from the charts that the data from 2022 has only stabilized for the first few months of the year, so we will use the MONTHS slicer in the upper right corner of the visual to only display the 2022 data from January through March:
+
+![Image of Mortality Early 2022](https://michaeljmerritt.github.io/Portfolio/Images/Mort5a.jpg)
+
+And then select 2021 to compare the beginning of 2022 to tge beginning of 2021:
+
+![Image of Mortality Early 2021](https://michaeljmerritt.github.io/Portfolio/Images/Mort4a.jpg)
+
+From this we can see that the start of 2022 isn't much better than the beginning of 2021.  One feature to note is that by kate March 2021 another wave was starting, we can tell by the sharp rise in deaths at the end of the chart.  It should be encouraging that we do not yeat see a new wave in the deaths data from 2022.
 
 It is also interesting to note from the cause of death section that the percentage of deaths of natural causes remains more or less constant despite the increase in mortality due to Covid.  In 2020 and 2021 when the Covid related causes of death are introduced the heart and neoplasm/cancer related causes of death are reduced.  This suggests that Covid is proving more deadly to those with heart and cancer realted issues than healthy people.
 
