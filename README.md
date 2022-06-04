@@ -41,7 +41,7 @@ Its clear from the charts that the data from 2022 has only stabilized for the fi
 
 ![Image of Mortality Early 2022](https://michaeljmerritt.github.io/Portfolio/Images/Mort4a.jpg)
 
-From this we can see that the start of 2022 isn't much better than the beginning of 2021.  However one feature to note is that by late March 2021 another wave was starting, we can tell by the sharp rise in deaths at the end of the chart.  It should be encouraging that we do not yet see a new wave in the deaths data from 2022, and this is evident from looking at data from 9 weeks ago ( highlighted below ).  This data point should be stable by now, in that I don't expect mny moew new data to affect the counts from 9 weeks ago.  This point in 2022 has a substantially lower death count with a downward trajectory, which is encouraging.
+From this we can see that the start of 2022 isn't much better than the beginning of 2021.  However one feature to note is that by late March 2021 the death rate decline leveled off at around 60k deaths per week.  It should be encouraging that in 2022 the decline from the holiday peak has continued through the end of March.  The data at this time should be stable by now, in that I don't expect any new data to affect the counts from this time 9 weeks ago.  This point 9 weeks ago is highlighted below and we can see that in 2022 there is a substantially lower death count with a downward trajectory toward the pre-pandemic average.
 
 ![Image of Mortality Early 2021](https://michaeljmerritt.github.io/Portfolio/Images/Mort5a.jpg)
 
