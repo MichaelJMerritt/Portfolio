@@ -37,11 +37,11 @@ Choosing 2021 shows that overall mortality in the US in the second year of the p
 
 ![Image of Mortality 2021](https://michaeljmerritt.github.io/Portfolio/Images/Mort3a.jpg)
 
-Its clear from the charts that the data from 2022 has only stabilized for the first few months of the year, so we will use the MONTHS slicer in the upper right corner of the visual to only display the 2022 data from January through April:
+Its clear from the charts that the data from 2022 has only stabilized for the first few months of the year, so we will use the MONTHS slicer in the upper right corner of the visual to only display the 2022 data from January through May:
 
 ![Image of Mortality Early 2022](https://michaeljmerritt.github.io/Portfolio/Images/Mort4a.jpg)
 
-From this we can see that the start of 2022 isn't much better than the beginning of 2021.  However one feature to note is that by late March 2021 the death rate decline leveled off at around 60k deaths per week.  It should be encouraging that in 2022 the decline from the holiday peak has continued through the end of March.  The data at this time should be stable by now, in that I don't expect any new data to affect the counts from this time 9 weeks ago.  This point 9 weeks ago is highlighted below and we can see that in 2022 there is a substantially lower death count with a downward trajectory toward the pre-pandemic average.
+From this we can see that the start of 2022 isn't much better than the beginning of 2021.  However one feature to note is that by late March 2021 the death rate decline leveled off at around 60k deaths per week.  It should be encouraging that in 2022 the decline from the holiday peak has continued through the end of March.  The data at this time should be stable by now, in that I don't expect any new data to affect the counts from this time 8 weeks ago.  This point 8 weeks ago is highlighted below and we can see that in 2022 the death count has returned to the high end of the pre-pandemic levels.
 
 ![Image of Mortality Early 2021](https://michaeljmerritt.github.io/Portfolio/Images/Mort5a.jpg)
 
