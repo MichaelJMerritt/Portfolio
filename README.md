@@ -8,7 +8,13 @@ I decided I needed to create a simple tool to help me quickly visualize fantasy 
 1. Collect player game statistics over the course of the season.
 2. Combine all of the player data into a single database.
 3. Calculate team and player level summary data.
-4. Create visualization tools to help 
+4. Create visualization tools.
+
+I wrote Python code to go to a popular sports website's NFL scores page and pull all of the individual game HTML links from that page.  The code then cycles through each game's link and collects each individual player's statistics from that page.  I have a seperate player database that keeps track of each unique player and their position and current team, and the code copares each player against that database and will update that database with any new player information it finds.
+
+Once all of the individual player data is collected it needs to be summarized by unique player because many players will have statistics in many different categories.  This summarized data set can now be completed by adding back in columns for the year and week that the game was played and calculating the fantasy score for each player for a number of different rules cases.  This completed data set can then be added to the master historical database.
+
+Now this database can be connected to PowerBI so I can create tools to visualize performance and scoring.  The first visual I needed was a team-level 
 
 ![Image of Team Level Summary](https://michaeljmerritt.github.io/Portfolio/Images/FFB01.jpg)
 
