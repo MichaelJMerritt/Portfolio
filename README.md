@@ -22,6 +22,8 @@ I decided I needed to create a simple tool to help me quickly visualize fantasy 
 
 ![Image of Team Defense Summary](https://michaeljmerritt.github.io/Portfolio/Images/FFB06.jpg)
 
+![Image of Compare Team Defenses](https://michaeljmerritt.github.io/Portfolio/Images/FFB07.jpg)
+
 ## 2. Dashboard Methodology using Python and Power BI
 
 For this analysis I've pulled overall mortality data in the USA from 3 different sources in the Center for Disease Control (CDC) database. First, a large set of historical data from 2014 - 2018 that is stable. Second, a dataset from the end of 2020 that had provisional, semi-stable mortality data for 2019. Finally the most recent dataset from 2023 that has provisional mortality data for 2020, 2021, 2022 and 2023 year to date.
