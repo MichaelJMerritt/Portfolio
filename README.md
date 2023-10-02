@@ -57,7 +57,7 @@ Clicking the 30-39 age group shows that while folks in this age group contracted
 
 ## 3. Computer Vision using Python 
 
-Computer vision can be harnessed to analyze images and videos, especially under controlled conditions.   
+Computer vision can be harnessed to analyze images and videos and collect data without human intervention, especially under controlled conditions.   
 
 [CLICK HERE](https://michaeljmerritt.github.io/Portfolio/Images/Foam2.mp4) to see an example of how testing with visual performance metrics can be automated.  In this case it was necessary to measure the amount of foam growth after a pour of nitrogenated coffee.  The test recorded dozens of videos per hour and each needed to be analyzed and the foam heights measured as well as the time it took for the growth to stop.  I created a script to open a specific network folder, collect the videos within it, analyze each video and output a data file with the measurements tabulated.  In this case the engineer can review the data file and review individual videos if something doesn't look right.
 
