@@ -2,35 +2,7 @@
 
 These simple projects show methodology and tool usage without exposing any private data.
 
-## 1. Combining and Summarizing Data from Many Sources
-
-I decided I needed to create a simple tool to help me quickly visualize fantasy football data to inform my decision making when setting my weekly lineup.  In order to create this tool I need to execute the following tasks:
-1. Collect player game statistics over the course of the season.
-2. Combine all of the player data into a single database.
-3. Calculate team and player level summary data.
-4. Create visualization tools.
-
-I wrote Python code to go to a popular sports website's NFL scores page and pull all of the individual game HTML links from that page.  The code then cycles through each game's link and collects each individual player's statistics from that page.  I have a seperate player database that keeps track of each unique player and their position and current team, and the code copares each player against that database and will update that database with any new player information it finds.
-
-Once all of the individual player data is collected it needs to be summarized by unique player because many players will have statistics in many different categories.  This summarized data set can now be completed by adding back in columns for the year and week that the game was played and calculating the fantasy score for each player for a number of different rules cases.  This completed data set can then be added to the master historical database.
-
-Now this database can be connected to PowerBI so I can create tools to visualize performance and scoring.  The first visual I needed was a team-level 
-
-![Image of Team Level Summary](https://michaeljmerritt.github.io/Portfolio/Images/FFB01.jpg)
-
-![Image of RB Level Summary](https://michaeljmerritt.github.io/Portfolio/Images/FFB02.jpg)
-
-![Image of Individual Level Summary](https://michaeljmerritt.github.io/Portfolio/Images/FFB03.jpg)
-
-![Image of Team Level Stats](https://michaeljmerritt.github.io/Portfolio/Images/FFB04.jpg)
-
-![Image of Individual Level Stats](https://michaeljmerritt.github.io/Portfolio/Images/FFB05.jpg)
-
-![Image of Team Defense Summary](https://michaeljmerritt.github.io/Portfolio/Images/FFB06.jpg)
-
-![Image of Compare Team Defenses](https://michaeljmerritt.github.io/Portfolio/Images/FFB07.jpg)
-
-## 2. Dashboard Methodology using Python and Power BI
+## 1. Dashboard Methodology using Python and Power BI
 
 For this analysis I've pulled overall mortality data in the USA from 3 different sources in the Center for Disease Control (CDC) database. First, a large set of historical data from 2014 - 2018 that is stable. Second, a dataset from the end of 2020 that had provisional, semi-stable mortality data for 2019. Finally the most recent dataset from 2023 that has provisional mortality data for 2020, 2021, 2022 and 2023 year to date.
 
@@ -75,6 +47,48 @@ Clicking the 80+ age group highlights that while the total number of Covid cases
 Clicking the 30-39 age group shows that while folks in this age group contracted more than four times as many Covid cases as 80+ year old people there were fewer than one twentieth as many deaths.
 
 ![Image of Cases 30](https://michaeljmerritt.github.io/Portfolio/Images/Cases2a.jpg)
+
+## 2. Combining and Summarizing Data from Many Sources
+
+I decided I needed to create a simple tool to help me quickly visualize fantasy football data to inform my decision making when setting my weekly lineup.  In order to create this tool I needed to execute the following tasks:
+1. Collect player game statistics over the course of the season.
+2. Combine all of the player data into a single database.
+3. Calculate team and player level summary data.
+4. Create visualization tools.
+
+I wrote Python code to go to a popular sports website's NFL scores page and pull all of the individual game HTML links from that page.  The code then visits each game's details page and collects each individual player's statistics.  I have a seperate player database that keeps track of each unique player, their position and current team.  The code compares each unique player against that database and will update the database with any new player information it finds.
+
+Once all of the individual player data is collected it needs to be summarized by unique player because many players will have statistics in many different categories.  This summarized data set can now be completed by adding back in columns for the year and week that the game was played and calculating the fantasy score for each player for a number of different rules cases.  This completed data set can then be added to the master historical database.
+
+Now this database can be connected to PowerBI so I can create tools to visualize performance and scoring.  The first visual I needed was a team-level summary that can be used to indicate relative importance of individual players to the team's success.
+
+![Image of Team Level Summary](https://michaeljmerritt.github.io/Portfolio/Images/FFB01.jpg)
+
+The above snapshot shows the fantasy scoring for each offensive player of the Buffalo Bills in total on the pareto column chart and then by week in the two line charts.  Each line chart reflects different scoring rules.  The ELF is a standard scoring with thresholds that need to be met before points are awarded while the WFL scores every statistic completely and also awards a half point per reception.  The pie charts show each player's percentage of the team's performance for a number of relevant categories.
+
+I use this chart to look for up and coming players.  For instance I can select only the running back position to see how many different individual players have a significant impact on the teams's rushing:
+
+![Image of RB Level Summary](https://michaeljmerritt.github.io/Portfolio/Images/FFB02.jpg)
+
+In this case, if I were to need to pick up an emergency player to cover a bye week or an injury I see that Latavious Murray has a sizeable contribution to the Buffalo rushing offense without having huge numbers.  By selecting him individually I can see exactly what his percent contribution is for each:
+
+![Image of Individual Level Summary](https://michaeljmerritt.github.io/Portfolio/Images/FFB03.jpg)
+
+Sometimes when comparing two players a summay is too high level so I also created a more detaild view that tabulates all relevent statistics:
+
+![Image of Team Level Stats](https://michaeljmerritt.github.io/Portfolio/Images/FFB04.jpg)
+
+Again, by selecting an individual in the table the chart below highlights that individual's fraction of the team's yareds and touchdowns:
+
+![Image of Individual Level Stats](https://michaeljmerritt.github.io/Portfolio/Images/FFB05.jpg)
+
+When trying to decide who to start each week, it is useful to undersatnd the defense that they're playing against so I also created a tool that summarizes team defense:
+
+![Image of Team Defense Summary](https://michaeljmerritt.github.io/Portfolio/Images/FFB06.jpg)
+
+If there are two similar players that I'm trying to decide between I can select each of their opponent's defense to see if one of them has a significant;y easier matchup:
+
+![Image of Compare Team Defenses](https://michaeljmerritt.github.io/Portfolio/Images/FFB07.jpg)
 
 ## 3. Computer Vision using Python 
 
