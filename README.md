@@ -30,7 +30,7 @@ Its clear from the charts that the data from 2023 has only stabilized for the fi
 
 From this we can see that the data first half of 2023 shows mortality rates approaching pre-pandemic levels.  There is an inflection point at day 224 of 2023 where the mortality rate begins to drop significantly, which tells me that its very likely that the data past that date has not yet stabilized and there is still alot of data that hasn't been verified and added to the database yet.
 
-It is also interesting to note from the cause of death section that the percentage of deaths of natural causes remains more or less constant despite the increase in mortality due to Covid.  In 2020 and 2021 when the Covid related causes of death are introduced the heart and neoplasm/cancer related causes of death are reduced.  This suggests that Covid is proving more deadly to those with heart and cancer realted issues than otherwise healthy people.
+It is also interesting to note from the cause of death section that the percentage of deaths of natural causes remains more or less constant despite the increase in mortality due to Covid.  In 2020 and 2021 when the Covid related causes of death are introduced the heart and neoplasm/cancer related causes of death are reduced.  This suggests that Covid is proving more deadly to those with heart and cancer related issues than otherwise healthy people.
 
 For the next analysis I use only a single dataset from the CDC that has detailed information on Covid cases in the US categorized by age, race and sex.  Each case also has information regarding the severity of the case including hospitalization and death. 
 
@@ -56,37 +56,37 @@ I decided I needed to create a simple tool to help me quickly visualize fantasy 
 3. Calculate team and player level summary data.
 4. Create visualization tools.
 
-I wrote Python code to go to a popular sports website's NFL scores page and pull all of the individual game HTML links from that page.  The code then visits each game's details page and collects each individual player's statistics.  I have a seperate player database that keeps track of each unique player, their position and current team.  The code compares each unique player against that database and will update the database with any new player information it finds.
+I wrote Python code to go to a popular sports website's NFL scores page and pull all of the individual game HTML links from that page.  The code then visits each game's details page and collects each individual player's statistics.  I have a separate player database that keeps track of each unique player, their position and current team.  The code compares each unique player against that database and will add any new players and update the database with any new player information it finds.
 
-Once all of the individual player data is collected it needs to be summarized by unique player because many players will have statistics in many different categories.  This summarized data set can now be completed by adding back in columns for the year and week that the game was played and calculating the fantasy score for each player for a number of different rules cases.  This completed data set can then be added to the master historical database.
+Once all of the individual player data is collected it needs to be summarized by unique player because many players will have statistics in different categories.  This summarized data set can now be completed by adding back in columns for the year and week that the game was played and calculating the fantasy score for each player for a number of different rules cases.  This completed data set can then be added to the master historical database.
 
 Now this database can be connected to PowerBI so I can create tools to visualize performance and scoring.  The first visual I needed was a team-level summary that can be used to indicate relative importance of individual players to the team's success.
 
 ![Image of Team Level Summary](https://michaeljmerritt.github.io/Portfolio/Images/FFB01.jpg)
 
-The above snapshot shows the fantasy scoring for each offensive player of the Buffalo Bills in total on the pareto column chart and then by week in the two line charts.  Each line chart reflects different scoring rules.  The ELF is a standard scoring with thresholds that need to be met before points are awarded while the WFL scores every statistic completely and also awards a half point per reception.  The pie charts show each player's percentage of the team's performance for a number of relevant categories.
+The above snapshot shows the fantasy scoring for each offensive player of the Buffalo Bills in total on the pareto column chart and then by week in the two line charts.  Each line chart reflects individual player scoring using different scoring rules.  The ELF is a standard scoring with thresholds that need to be met before points are awarded, while the WFL scores every statistic continuously and also awards a half point per reception.  The pie charts show each player's percentage of the team's performance for a number of relevant categories.
 
-I use this chart to look for up and coming players.  For instance I can select only the running back position to see how many different individual players have a significant impact on the teams's rushing:
+I use this chart to look for up and coming players.  For instance I can select only the running back position to see how many different individual players have a significant impact on the team's rushing:
 
 ![Image of RB Level Summary](https://michaeljmerritt.github.io/Portfolio/Images/FFB02.jpg)
 
-In this case, if I were to need to pick up an emergency player to cover a bye week or an injury I see that Latavious Murray has a sizeable contribution to the Buffalo rushing offense without having huge numbers.  By selecting him individually I can see exactly what his percent contribution is for each:
+In this case, if I were to need to add a player to cover a bye week or an injury I see that Latavious Murray has a sizeable contribution to the Buffalo rushing offense without having huge numbers.  This could mean that he's not been added to another team's roster and might be available to me in case of an emergency.  By selecting him in the visual I can see exactly what his percent contribution is for each scoring category:
 
 ![Image of Individual Level Summary](https://michaeljmerritt.github.io/Portfolio/Images/FFB03.jpg)
 
-Sometimes when comparing two players a summay is too high level so I also created a more detaild view that tabulates all relevent statistics:
+Sometimes when comparing two players a summary is too high level so I also created a more detailed view that tabulates all relevant statistics for each player:
 
 ![Image of Team Level Stats](https://michaeljmerritt.github.io/Portfolio/Images/FFB04.jpg)
 
-Again, by selecting an individual in the table the chart below highlights that individual's fraction of the team's yareds and touchdowns:
+Again, by selecting an individual in the table the chart below highlights that individual's fraction of the team's yards and touchdowns:
 
 ![Image of Individual Level Stats](https://michaeljmerritt.github.io/Portfolio/Images/FFB05.jpg)
 
-When trying to decide who to start each week, it is useful to undersatnd the defense that they're playing against so I also created a tool that summarizes team defense:
+When trying to decide who to start each week, it is useful to understand the defense that they're playing against so I also created a tool that summarizes team defense:
 
 ![Image of Team Defense Summary](https://michaeljmerritt.github.io/Portfolio/Images/FFB06.jpg)
 
-If there are two similar players that I'm trying to decide between I can select each of their opponent's defense to see if one of them has a significant;y easier matchup:
+If there are two similar players that I'm trying to decide between I can select each of their opponent's defense to see if one of them has a significantly easier matchup:
 
 ![Image of Compare Team Defenses](https://michaeljmerritt.github.io/Portfolio/Images/FFB07.jpg)
 
