@@ -78,7 +78,7 @@ Sometimes when comparing two players a summary is too high level so I also creat
 
 ![Image of Team Level Stats](https://michaeljmerritt.github.io/Portfolio/Images/FFB04.jpg)
 
-Again, by selecting an individual in the table the chart below highlights that individual's fraction of the team's yards and touchdowns:
+Again, by selecting an individual in the table the chart below will highlight that individual's fraction of the team's fantasy scoring from accumulated yards ( blue ) and the number of touchdowns scored ( red ).
 
 ![Image of Individual Level Stats](https://michaeljmerritt.github.io/Portfolio/Images/FFB05.jpg)
 
