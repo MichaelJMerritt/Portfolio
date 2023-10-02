@@ -4,10 +4,23 @@ These simple projects show methodology and tool usage without exposing any priva
 
 ## 1. Combining and Summarizing Data from Many Sources
 
+I decided I needed to create a simple tool to help me quickly visualize fantasy football data to inform my decision making when setting my weekly lineup.  In order to create this tool I need to execute the following tasks:
+1. Collect player game statistics over the course of the season.
+2. Combine all of the player data into a single database.
+3. Calculate team and player level summary data.
+4. Create visualization tools to help 
 
+![Image of Team Level Summary](https://michaeljmerritt.github.io/Portfolio/Images/FFB01.jpg)
 
+![Image of RB Level Summary](https://michaeljmerritt.github.io/Portfolio/Images/FFB02.jpg)
 
+![Image of Individual Level Summary](https://michaeljmerritt.github.io/Portfolio/Images/FFB03.jpg)
 
+![Image of Team Level Stats](https://michaeljmerritt.github.io/Portfolio/Images/FFB04.jpg)
+
+![Image of Individual Level Stats](https://michaeljmerritt.github.io/Portfolio/Images/FFB05.jpg)
+
+![Image of Team Defense Summary](https://michaeljmerritt.github.io/Portfolio/Images/FFB06.jpg)
 
 ## 2. Dashboard Methodology using Python and Power BI
 
