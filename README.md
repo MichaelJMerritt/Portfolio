@@ -33,7 +33,7 @@ Choosing 2021 shows that overall mortality in the US in the second year of the p
 
 Its clear from the charts that the data from 2023 has only stabilized for the first half of the year, so we will use the MONTHS slicer in the upper right corner of the visual to only display the 2023 data from January through August:
 
-![Image of Mortality Early 2022](https://michaeljmerritt.github.io/Portfolio/Images/Mort4a.jpg)
+![Image of Mortality Mid 2023](https://michaeljmerritt.github.io/Portfolio/Images/Mort4a.jpg)
 
 From this we can see that the data first half of 2023 shows mortality rates approaching pre-pandemic levels.  There is an inflection point at day 224 of 2023 where the mortality rate begins to drop significantly, which tells me that its very likely that the data past that date has not yet stabilized and there is still alot of data that hasn't been verified and added to the database yet.
 
