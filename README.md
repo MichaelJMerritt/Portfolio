@@ -70,7 +70,7 @@ I use this chart to look for up and coming players.  For instance I can select o
 
 ![Image of RB Level Summary](https://michaeljmerritt.github.io/Portfolio/Images/FFB02.jpg)
 
-In this case, if I were to need to add a player to cover a bye week or an injury I see that Latavious Murray has a sizeable contribution to the Buffalo rushing offense without having huge numbers.  This could mean that he's not been added to another team's roster and might be available to me in case of an emergency.  By selecting him in the visual I can see exactly what his percent contribution is for each scoring category:
+In this case, if I were to need to add a player to cover a bye week or an injury I see that while Latavious Murray has had a sizeable contribution to the Buffalo rushing offense. By selecting him in the visual I can see exactly what his percent contribution is for each scoring category.  At this point I can see that his usage has dropped considerably as the season has progressed.  It would be a risk to add him at this point.  
 
 ![Image of Individual Level Summary](https://michaeljmerritt.github.io/Portfolio/Images/FFB03.jpg)
 
@@ -81,6 +81,10 @@ Sometimes when comparing two players a summary is too high level so I also creat
 Again, by selecting an individual in the table the chart below will highlight that individual's fraction of the team's fantasy scoring from accumulated yards ( blue ) and the number of touchdowns scored ( red ).
 
 ![Image of Individual Level Stats](https://michaeljmerritt.github.io/Portfolio/Images/FFB05.jpg)
+
+Now that the season has progressed through many weeks of games its worth looking at week to week performance.  I put together a box and whisker plot and then filtered all results by the tight end position regardless of team.  The white dots show individual outlier games while the red dots show the average weekly score for each player.  In looking at the results I can see that while there are many individual games where a player scores significantly more points than average, there are very few players that do it consistently.  It might be worthwhile to attempt to trade for one of these players to gain an advantage at the tight end position for the rest of the year.
+
+![Image of High Level Position Stats](https://michaeljmerritt.github.io/Portfolio/Images/FFB05a.jpg)
 
 When trying to decide who to start each week, it is useful to understand the defense that they're playing against so I also created a tool that summarizes team defense:
 
