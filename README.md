@@ -34,6 +34,8 @@ Once all of the various industries data has been combined I have a spreadsheet o
 
 There are many places on the internet to collect historical price and trading volume data.  I created a Python script to go to one of these sites and collect 
 
+![Image of Stock Details](https://michaeljmerritt.github.io/Portfolio/Images/Stocks_Individual.jpg)
+
 ## 2. Simple Data Drill Down in Python
 
 TBD
