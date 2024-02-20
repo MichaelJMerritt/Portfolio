@@ -14,7 +14,7 @@ Process :
 3. Organize the company data into market sectors and industries.
 4. Choose the largest 100 companies from each market sector to keep a database of price and trading volume history, over 2,000 companies.
 5. Write script to periodically refresh each individual stock's historical data locally.
-   Ensure that if a new stock enters the top 100 that the code will collect the last 4 years of data, otherwise simply add any missing data that has become available since the last refresh.
+   - Ensure that if a new stock enters the top 100 that the code will collect the last 4 years of data, otherwise simply add any missing data that has become available since the last refresh.
 6. Decide on various analyses to perform in order to gain insight on how the stock is performing:
    - A 25 day moving average and a 50 day moving average on stock price to get insight on how the price is trending ( up or down ) and how the trend is moving ( accelerating or decelerating ).
    - Identify all points at which the 2 moving averages cross to understand when the price change enters a meaningful direction change.
@@ -22,12 +22,12 @@ Process :
    - Calculate the slopes of each of the price and volume regression lines over the past 25 days to create a measure of the magnitude of how a price is changing.
 8. Combine all individual stock history data into a single data file.  Current data file approaching 3 million lines.
 9. For each stock symbol in the data file:
-   Add columns for the various moving averages and the OBV.
-   Perform the regression analyses to get the slope of the trends.
-   Based on these slopes identify if each line is Rising Fast, Risin, Neutral, Falling or Falling Fast.  Add these measures to the original spreadsheet containing all of the stock summaries.
+   - Add columns for the various moving averages and the OBV.
+   - Perform the regression analyses to get the slope of the trends.
+   - Based on these slopes identify if each line is Rising Fast, Risin, Neutral, Falling or Falling Fast.  Add these measures to the original spreadsheet containing all of the stock summaries.
 10. Create a PowerBI database that links to the summary spreadhseet and the stock history data file.
-   Relate the data files to each other by the stock symbol.
-   Create visuals on a single page that allow me to only show stocks that are performing in a particular manner, and then
+   - Relate the data files to each other by the stock symbol.
+   - Create visuals on a single page that allow me to only show stocks that are performing in a particular manner, and then
 
 I found a registry of publicly traded companies searated into their various secotrs and industries.  I wrote a Python script to go to that site and go to each industry's summary page and collect all of the company summary data and add it to a Pandas dataframe. 
 Once all of the various industries data has been combined I have a spreadsheet of nearly 7,000 individual publically traded companies that include each company's stock symbol and some high level statistics, such as market capitalization.  I will use market cap. as the measure to rank each company's size for purposes of creating a cutoff in how much data I collect.
