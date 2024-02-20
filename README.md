@@ -16,10 +16,10 @@ Process :
 5. Write script to periodically refresh each individual stock's historical data locally.
    Ensure that if a new stock enters the top 100 that the code will collect the last 4 years of data, otherwise simply add any missing data that has become available since the last refresh.
 6. Decide on various analyses to perform in order to gain insight on how the stock is performing:
-   A 25 day moving average and a 50 day moving average on stock price to get insight on how the price is trending ( up or down ) and how the trend is moving ( accelerating or decelerating ).
-   Identify all points at which the 2 moving averages cross to understand when the price change enters a meaningful direction change.
-   Use the trading volume and the price histories to calculate a measure of public sentiment called On Balance Volume (OBV) which is simply
-   Calculate the slopes of each of the price and volume regression lines over the past 25 days to create a measure of the magnitude of how a price is changing.
+   - A 25 day moving average and a 50 day moving average on stock price to get insight on how the price is trending ( up or down ) and how the trend is moving ( accelerating or decelerating ).
+   - Identify all points at which the 2 moving averages cross to understand when the price change enters a meaningful direction change.
+   - Use the trading volume and the price histories to calculate a measure of public sentiment called On Balance Volume (OBV) which is simply
+   - Calculate the slopes of each of the price and volume regression lines over the past 25 days to create a measure of the magnitude of how a price is changing.
 8. Combine all individual stock history data into a single data file.  Current data file approaching 3 million lines.
 9. For each stock symbol in the data file:
    Add columns for the various moving averages and the OBV.
