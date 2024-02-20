@@ -10,7 +10,7 @@ There are many tools publicly available to analyze an individual stock's perform
 
 Process :
 1. Collect summary data on all publicly traded companies from public websites, nearly 7,000 companies.
-2. 2. Write script to periodically refresh the data into a local spreadsheet.
+2. Write script to periodically refresh the data into a local spreadsheet.
 3. Organize the company data into market sectors and industries.
 4. Choose the largest 100 companies from each market sector to keep a database of price and trading volume history, over 2,000 companies.
 5. Write script to periodically refresh each individual stock's historical data.   Ensure that if a new stock enters the top 100 that the code will collect the last 4 years of data, otherwise simply add any missing data that has become available since the last refresh.
