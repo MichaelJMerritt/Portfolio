@@ -2,7 +2,20 @@
 
 These simple projects show methodology and tool usage without exposing any private data.
 
-## 1. Dashboard Methodology using Python and Power BI
+## 1. Collecting and Combining Data from many Sources
+
+There are many tools publibly available to analyze an individual stock's performance but I wanted to be able to compare many stock histories and rank them by either (1) how likely they are to continue thier current course or (2) how likely they are to change their course in the enar future.  In order to do that I need to collect historical price and trading volume data for many stocks and develop measures to be able to compare their recent performance.
+
+I found a registry of publicly traded companies searated into their various secotrs and industries.  I wrote a Python script to go to that site and go to each industry's summary page and collect all of the company summary data and add it to a Pandas dataframe. 
+Once all of the various industries data has been combined I have a spreadsheet of nearly 7,000 individual publically traded companies that include each company's stock symbol and some high level statistics, such as market capitalization.  
+
+There are many places on the internet to collect historical price and trading volume data.  I created a Python script to 
+
+## 2. Simple Data Drill Down in Python
+
+For this analysis I've pulled overall mortality data in the USA from 3 different sources in the Center for Disease Control (CDC) database. First, a large set of historical data from 2014 - 2018 that is stable. Second, a dataset from the end of 2020 that had provisional, 
+
+## 3. Dashboard Methodology using Python and Power BI
 
 For this analysis I've pulled overall mortality data in the USA from 3 different sources in the Center for Disease Control (CDC) database. First, a large set of historical data from 2014 - 2018 that is stable. Second, a dataset from the end of 2020 that had provisional, semi-stable mortality data for 2019. Finally the most recent dataset from 2023 that has provisional mortality data for 2020, 2021, 2022 and 2023 year to date.
 
@@ -47,52 +60,6 @@ Clicking the 80+ age group highlights that while the total number of Covid cases
 Clicking the 30-39 age group shows that while folks in this age group contracted more than four times as many Covid cases as 80+ year old people there were fewer than one twentieth as many deaths.
 
 ![Image of Cases 30](https://michaeljmerritt.github.io/Portfolio/Images/Cases2a.jpg)
-
-## 2. Combining and Summarizing Data from Many Sources
-
-I decided I needed to create a simple tool to help me quickly visualize fantasy football data to inform my decision making when setting my weekly lineup.  In order to create this tool I needed to execute the following tasks:
-1. Collect player game statistics over the course of the season.
-2. Combine all of the player data into a single database.
-3. Calculate team and player level summary data.
-4. Create visualization tools.
-
-I wrote Python code to go to a popular sports website's NFL scores page and pull all of the individual game HTML links from that page.  The code then visits each game's details page and collects each individual player's statistics.  I have a separate player database that keeps track of each unique player, their position and current team.  The code compares each unique player against that database and will add any new players and update the database with any new player information it finds.
-
-Once all of the individual player data is collected it needs to be summarized by unique player because many players will have statistics in different categories.  This summarized data set can now be completed by adding back in columns for the year and week that the game was played and calculating the fantasy score for each player for a number of different rules cases.  This completed data set can then be added to the master historical database.
-
-Now this database can be connected to PowerBI so I can create tools to visualize performance and scoring.  The first visual I needed was a team-level summary that can be used to indicate relative importance of individual players to the team's success.
-
-![Image of Team Level Summary](https://michaeljmerritt.github.io/Portfolio/Images/FFB01.jpg)
-
-The above snapshot shows the fantasy scoring for each offensive player of the Buffalo Bills in total on the pareto column chart and then by week in the two line charts.  Each line chart reflects individual player scoring using different scoring rules.  The ELF is a standard scoring with thresholds that need to be met before points are awarded, while the WFL scores every statistic continuously and also awards a half point per reception.  The pie charts show each player's percentage of the team's performance for a number of relevant categories.
-
-I use this chart to look for up and coming players.  For instance I can select only the running back position to see how many different individual players have a significant impact on the team's rushing:
-
-![Image of RB Level Summary](https://michaeljmerritt.github.io/Portfolio/Images/FFB02.jpg)
-
-In this case, if I were to need to add a player to cover a bye week or an injury I see that while Latavious Murray has had a sizeable contribution to the Buffalo rushing offense. By selecting him in the visual I can see exactly what his percent contribution is for each scoring category.  At this point I can see that his usage has dropped considerably as the season has progressed.  It would be a risk to add him at this point.  
-
-![Image of Individual Level Summary](https://michaeljmerritt.github.io/Portfolio/Images/FFB03.jpg)
-
-Sometimes when comparing two players a summary is too high level so I also created a more detailed view that tabulates all relevant statistics for each player:
-
-![Image of Team Level Stats](https://michaeljmerritt.github.io/Portfolio/Images/FFB04.jpg)
-
-Again, by selecting an individual in the table the chart below will highlight that individual's fraction of the team's fantasy scoring from accumulated yards ( blue ) and the number of touchdowns scored ( red ).
-
-![Image of Individual Level Stats](https://michaeljmerritt.github.io/Portfolio/Images/FFB05.jpg)
-
-Now that the season has progressed through many weeks of games its worth looking at week to week performance.  I put together a box and whisker plot and then filtered all results by the tight end position regardless of team.  The white dots show individual outlier games while the red dots show the average weekly score for each player.  In looking at the results I can see that while there are many individual games where a player scores significantly more points than average, there are very few players that do it consistently.  It might be worthwhile to attempt to trade for one of these players to gain an advantage at the tight end position for the rest of the year.
-
-![Image of High Level Position Stats](https://michaeljmerritt.github.io/Portfolio/Images/FFB05a.jpg)
-
-When trying to decide who to start each week, it is useful to understand the defense that they're playing against so I also created a tool that summarizes team defense:
-
-![Image of Team Defense Summary](https://michaeljmerritt.github.io/Portfolio/Images/FFB06.jpg)
-
-If there are two similar players that I'm trying to decide between I can select each of their opponent's defense to see if one of them has a significantly easier matchup:
-
-![Image of Compare Team Defenses](https://michaeljmerritt.github.io/Portfolio/Images/FFB07.jpg)
 
 ## 3. Computer Vision using Python 
 
