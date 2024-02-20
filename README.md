@@ -2,7 +2,7 @@
 
 These simple projects show methodology and tool usage without exposing any private data.
 
-## 1. Collecting and Combining Data from many Sources
+## 1. Collecting and Combining Data from Many Sources
 
 There are many tools publicly available to analyze an individual stock's performance but I wanted to be able to compare many stock histories and rank them by either (1) how likely they are to continue their current course or (2) how likely they are to change their course in the near future.  In order to do that I need to collect historical price and trading volume data for many stocks and develop measures to be able to compare their recent performance.
 
