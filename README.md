@@ -36,6 +36,8 @@ There are many places on the internet to collect historical price and trading vo
 
 ![Image of Stock Details](https://michaeljmerritt.github.io/Portfolio/Images/Stocks_Individual.jpg)
 
+![Image of Stock Details](https://michaeljmerritt.github.io/Portfolio/Images/Stocks_Individual2.jpg)
+
 ## 2. Simple Data Drill Down in Python
 
 TBD
