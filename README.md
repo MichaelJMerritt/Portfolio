@@ -4,16 +4,30 @@ These simple projects show methodology and tool usage without exposing any priva
 
 ## 1. Collecting and Combining Data from many Sources
 
-There are many tools publibly available to analyze an individual stock's performance but I wanted to be able to compare many stock histories and rank them by either (1) how likely they are to continue thier current course or (2) how likely they are to change their course in the enar future.  In order to do that I need to collect historical price and trading volume data for many stocks and develop measures to be able to compare their recent performance.
+There are many tools publicly available to analyze an individual stock's performance but I wanted to be able to compare many stock histories and rank them by either (1) how likely they are to continue their current course or (2) how likely they are to change their course in the near future.  In order to do that I need to collect historical price and trading volume data for many stocks and develop measures to be able to compare their recent performance.
 
+![Image of Stock Summary](https://michaeljmerritt.github.io/Portfolio/Images/Stocks_Top.jpg)
+
+Process :
+1. Collect summary data on all publicly traded companies from public websites, nearly 7,000 companies.
+2. 2. Write script to periodically refresh the data into a local spreadsheet.
+3. Organize the company data into market sectors and industries.
+4. Choose the largest 100 companies from each market sector to keep a database of price and trading volume history, over 2,000 companies.
+5. Write script to periodically refresh each individual stock's historical data.   Ensure that if a new stock enters the top 100 that the code will collect the last 4 years of data, otherwise simply add any missing data that has become available since the last refresh.
+6. Decide on various analyses to perform in order to gain insight on how the stock is performing:
+   A 25 day moving average and a 50 day moving average on stock price to get insight on how the price is trending ( up or down ) and how the trend is moving ( accelerating or decelerating ).
+   Identify all points at which the 2 moving averages cross to understand when the price change enters a meaningful direction change.
+   Use the trading volume and the price histories to calculate a measure of public sentiment called On Balance Volume (OBV) which is simply
+   Calculate the slopes of each of the price and volume regression lines over the past 25 days to create a measure of the magnitude of how a price is changing.
+   
 I found a registry of publicly traded companies searated into their various secotrs and industries.  I wrote a Python script to go to that site and go to each industry's summary page and collect all of the company summary data and add it to a Pandas dataframe. 
-Once all of the various industries data has been combined I have a spreadsheet of nearly 7,000 individual publically traded companies that include each company's stock symbol and some high level statistics, such as market capitalization.  
+Once all of the various industries data has been combined I have a spreadsheet of nearly 7,000 individual publically traded companies that include each company's stock symbol and some high level statistics, such as market capitalization.  I will use market cap. as the measure to rank each company's size for purposes of creating a cutoff in how much data I collect.
 
-There are many places on the internet to collect historical price and trading volume data.  I created a Python script to 
+There are many places on the internet to collect historical price and trading volume data.  I created a Python script to go to one of these sites and collect 
 
 ## 2. Simple Data Drill Down in Python
 
-For this analysis I've pulled overall mortality data in the USA from 3 different sources in the Center for Disease Control (CDC) database. First, a large set of historical data from 2014 - 2018 that is stable. Second, a dataset from the end of 2020 that had provisional, 
+TBD
 
 ## 3. Dashboard Methodology using Python and Power BI
 
