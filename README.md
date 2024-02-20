@@ -22,10 +22,10 @@ Process :
    - Calculate the slopes of each of the price and volume regression lines over the past 25 days to create a measure of the magnitude of how a price is changing.
 8. Combine all individual stock history data into a single data file.  Current data file approaching 3 million lines.
 9. For each stock symbol in the data file:
-   - Add columns for the various moving averages and the OBV.
-   - Perform the regression analyses to get the slope of the trends.
-   - Based on these slopes identify if each line is Rising Fast, Risin, Neutral, Falling or Falling Fast.  Add these measures to the original spreadsheet containing all of the stock summaries.
-10. Create a PowerBI database that links to the summary spreadhseet and the stock history data file.
+   - Add columns for the various moving averages and the OBV. Perform the regression analyses to get the slope of the trends.
+   - Based on these slopes identify if each line is Rising Fast, Risin, Neutral, Falling or Falling Fast.
+   - Add these measures to the original spreadsheet containing all of the stock summaries.
+11. Create a PowerBI database that links to the summary spreadhseet and the stock history data file.
    - Relate the data files to each other by the stock symbol.
    - Create visuals on a single page that allow me to only show stocks that are performing in a particular manner, and then
 
