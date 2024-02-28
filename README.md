@@ -18,12 +18,12 @@ Process :
 6. Decide on various analyses to perform in order to gain insight on how the stock is performing:
    - A 25 day moving average and a 50 day moving average on stock price to get insight on how the price is trending ( up or down ) and how the trend is moving ( accelerating or decelerating ).
    - Identify all points at which the 2 moving averages cross to understand when the price change enters a meaningful direction change.
-   - Use the trading volume and the price histories to calculate a measure of public sentiment called On Balance Volume (OBV) which is simply
+   - Use the trading volume and the price histories to calculate a measure of public sentiment called On Balance Volume (OBV) which simply adds the trading volume during price increases and subtracts the trading volume during times of price decreases.
    - Calculate the slopes of each of the price and volume regression lines over the past 25 days to create a measure of the magnitude of how a price is changing.
 7. Combine all individual stock history data into a single data file.  Current data file approaching 3 million lines.
 8. For each stock symbol in the data file:
    - Add columns for the various moving averages and the OBV. Perform the regression analyses to get the slope of the trends.
-   - Based on these slopes identify if each line is Rising Fast, Risin, Neutral, Falling or Falling Fast.
+   - Based on these slopes identify if each line is Rising Fast, Rising, Neutral, Falling or Falling Fast.
    - Add these measures to the original spreadsheet containing all of the stock summaries.
 9. Create a PowerBI database that links to the summary spreadhseet and the stock history data file.
    - Relate the data files to each other by the stock symbol.
