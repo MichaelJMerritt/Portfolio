@@ -6,7 +6,7 @@ These simple projects show methodology and tool usage without exposing any priva
 
 There are many tools publicly available to analyze an individual stock's performance but I wanted to be able to compare many stock histories and rank them by either (1) how likely they are to continue their current course or (2) how likely they are to change their course in the near future.  In order to do that I need to collect historical price and trading volume data for many stocks and develop measures to be able to compare their recent performance.
 
-![Image of Stock Summary](https://michaeljmerritt.github.io/Portfolio/Images/Stocks_Top.jpg)
+![Image of Stock Summary](https://michaeljmerritt.github.io/Portfolio/Images/Stocks_Top.jpg#center)
 
 Process :
 1. Collect summary data on all publicly traded companies from public websites, nearly 7,000 companies.
@@ -28,7 +28,7 @@ Process :
   
 At this point I verify that each measure is working as intended while still using Python.  I plot each trend line over its signal and then 
   
-![Image of Stock Details](https://michaeljmerritt.github.io/Portfolio/Images/Stocks_Definition.jpg)
+![Image of Stock Details](https://michaeljmerritt.github.io/Portfolio/Images/Stocks_Definition.jpg#center)
 
 9. Create a PowerBI database that links to the summary spreadhseet and the stock history data file.
    - Relate the data files to each other by the stock symbol.
@@ -39,9 +39,9 @@ Once all of the various industries data has been combined I have a spreadsheet o
 
 There are many places on the internet to collect historical price and trading volume data.  I created a Python script to go to one of these sites and collect 
 
-![Image of Stock Details](https://michaeljmerritt.github.io/Portfolio/Images/Stocks_Individual.jpg)
+![Image of Stock Details](https://michaeljmerritt.github.io/Portfolio/Images/Stocks_Individual.jpg#center)
 
-![Image of More Stock Details](https://michaeljmerritt.github.io/Portfolio/Images/Stocks_Individual2.jpg)
+![Image of More Stock Details](https://michaeljmerritt.github.io/Portfolio/Images/Stocks_Individual2.jpg#center)
 
 ## 2. Simple Data Drill Down in Python
 
@@ -55,23 +55,23 @@ These datasets overlap, so I used Python and Pandas to concatenate them into a s
 
 When I do this I can see that the number of deaths in the US in 2020, 2021 and 2022 were considerably higher than those in prior years and that the excess follows a pattern not unlike the different waves of Covid-19 that were reported during those times.  
 
-![Image of Mortality](https://michaeljmerritt.github.io/Portfolio/Images/Mort0a.jpg)
+![Image of Mortality](https://michaeljmerritt.github.io/Portfolio/Images/Mort0a.jpg#center)
 
 Individually choosing the year 2019 provides baseline mortality for an average year in the time before the Covid pandemic:
 
-![Image of Mortality 2019](https://michaeljmerritt.github.io/Portfolio/Images/Mort1a.jpg)
+![Image of Mortality 2019](https://michaeljmerritt.github.io/Portfolio/Images/Mort1a.jpg#center)
 
 Choosing 2020 shows a significant increase in overall mortality in the first year of the Covid pandemic:
 
-![Image of Mortality 2020](https://michaeljmerritt.github.io/Portfolio/Images/Mort2a.jpg)
+![Image of Mortality 2020](https://michaeljmerritt.github.io/Portfolio/Images/Mort2a.jpg#center)
 
 Choosing 2021 shows that overall mortality in the US in the second year of the pandemic had exceeded that of the first year:
 
-![Image of Mortality 2021](https://michaeljmerritt.github.io/Portfolio/Images/Mort3a.jpg)
+![Image of Mortality 2021](https://michaeljmerritt.github.io/Portfolio/Images/Mort3a.jpg#center)
 
 Its clear from the charts that the data from 2023 has only stabilized for the first half of the year, so we will use the MONTHS slicer in the upper right corner of the visual to only display the 2023 data from January through August:
 
-![Image of Mortality Mid 2023](https://michaeljmerritt.github.io/Portfolio/Images/Mort4a.jpg)
+![Image of Mortality Mid 2023](https://michaeljmerritt.github.io/Portfolio/Images/Mort4a.jpg#center)
 
 From this we can see that the data first half of 2023 shows mortality rates approaching pre-pandemic levels.  There is an inflection point at day 224 of 2023 where the mortality rate begins to drop significantly, which tells me that its very likely that the data past that date has not yet stabilized and there is still alot of data that hasn't been verified and added to the database yet.
 
@@ -83,15 +83,15 @@ In the charts I've charted the reported cases of Covid in the left panel, the Co
 
 Its interesting to note that while looking at the total population the death rate increases non-linearly with age.  In fact the death rate for people under 40 years old is extremely small.
 
-![Image of Cases](https://michaeljmerritt.github.io/Portfolio/Images/Cases0a.jpg)
+![Image of Cases](https://michaeljmerritt.github.io/Portfolio/Images/Cases0a.jpg#center)
 
 Clicking the 80+ age group highlights that while the total number of Covid cases is relatively small the death rate from these cases in very large.
 
-![Image of Cases 80](https://michaeljmerritt.github.io/Portfolio/Images/Cases1a.jpg)
+![Image of Cases 80](https://michaeljmerritt.github.io/Portfolio/Images/Cases1a.jpg#center)
 
 Clicking the 30-39 age group shows that while folks in this age group contracted more than four times as many Covid cases as 80+ year old people there were fewer than one twentieth as many deaths.
 
-![Image of Cases 30](https://michaeljmerritt.github.io/Portfolio/Images/Cases2a.jpg)
+![Image of Cases 30](https://michaeljmerritt.github.io/Portfolio/Images/Cases2a.jpg#center)
 
 ## 3. Computer Vision using Python 
 
@@ -103,7 +103,7 @@ Computer vision can be harnessed to analyze images and videos and collect data w
 
 When presenting cyclic data it can help to overlay each cycle's graph on top of each other and watch for changes.  It is easy to visualize slow drift in signals in this manner, and this type of inspection will also make seeing outliers or otherwise odd behavior in data.  
 
-![Image of Cyclic Data](https://michaeljmerritt.github.io/Portfolio/Images/CyclicSignsls.gif)
+![Image of Cyclic Data](https://michaeljmerritt.github.io/Portfolio/Images/CyclicSignsls.gif#center)
 
 ## 5. Getting Detailed
 
@@ -111,7 +111,7 @@ Digging deep into data often uncovers details that aren't noticeable when lookin
 
 Parsing the voting results data by county and then shading each county along a continuous color scale allows us to inspect the voting results in detail without cluttering the chart.  Many states show large areas of muted colors that indicate close races with darker regions indicating strongholds for each candidate.  The chart is still simple and easy to read but shows much more information.
 
-![Image of Map](https://michaeljmerritt.github.io/Portfolio/Images/2020ElectionSmall.gif)
+![Image of Map](https://michaeljmerritt.github.io/Portfolio/Images/2020ElectionSmall.gif#center)
 
 ## 6. Animation
 
