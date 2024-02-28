@@ -34,14 +34,9 @@ At this point I verify that each measure is working as intended while still usin
     <img src="https://michaeljmerritt.github.io/Portfolio/Images/Stocks_Definition.jpg">
 </p>
 
-9. Create a PowerBI database that links to the summary spreadhseet and the stock history data file.
-   - Relate the data files to each other by the stock symbol.
-   - Create visuals on a single page that allow me to only show stocks that are performing in a particular manner, and then
+Now I was ready to create a PowerBI report that links to the summary spreadhseet and the stock history data file, relating the data files to each other by the stock symbol.  reate visuals on a single page that allow me to only show stocks that are performing in a particular manner, and then
 
-I found a registry of publicly traded companies searated into their various secotrs and industries.  I wrote a Python script to go to that site and go to each industry's summary page and collect all of the company summary data and add it to a Pandas dataframe. 
-Once all of the various industries data has been combined I have a spreadsheet of nearly 7,000 individual publically traded companies that include each company's stock symbol and some high level statistics, such as market capitalization.  I will use market cap. as the measure to rank each company's size for purposes of creating a cutoff in how much data I collect.
 
-There are many places on the internet to collect historical price and trading volume data.  I created a Python script to go to one of these sites and collect 
 
 <p align="center">  
     <img src="https://michaeljmerritt.github.io/Portfolio/Images/Stocks_Individual.jpg">
