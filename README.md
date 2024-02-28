@@ -25,6 +25,11 @@ Process :
    - Add columns for the various moving averages and the OBV. Perform the regression analyses to get the slope of the trends.
    - Based on these slopes identify if each line is Rising Fast, Rising, Neutral, Falling or Falling Fast.
    - Add these measures to the original spreadsheet containing all of the stock summaries.
+  
+At this point I verify that each measure is working as intended while still using Python.  I plot each trend line over its signal and then 
+  
+![Image of Stock Details](https://michaeljmerritt.github.io/Portfolio/Images/Stocks_Definition.jpg)
+
 9. Create a PowerBI database that links to the summary spreadhseet and the stock history data file.
    - Relate the data files to each other by the stock symbol.
    - Create visuals on a single page that allow me to only show stocks that are performing in a particular manner, and then
