@@ -29,7 +29,7 @@ Process :
 At this point I verify that each measure is working as intended while still using Python, image below.  In the stock price pane ( top left ) I plot each moving average crossing with either a red or green dot, depending on if the crossing is the short term rising above the long term or falling below.  Then I plot each trend line over its signal.  In the trading volume pane ( bottom right ) I plot the OBV measurement in black and the 5 latest week trend line in red.  Finally, 
 
 <p align="center">  
-![Image of Stock Details](https://michaeljmerritt.github.io/Portfolio/Images/Stocks_Definition.jpg)
+    <img src="https://michaeljmerritt.github.io/Portfolio/Images/Stocks_Definition.jpg">
 </p>
 
 9. Create a PowerBI database that links to the summary spreadhseet and the stock history data file.
