@@ -42,9 +42,7 @@ Now I was ready to create a PowerBI report that links to the summary spreadhseet
     <img src="https://michaeljmerritt.github.io/Portfolio/Images/Stocks_Individual.jpg">
 </p>
 
-<p align="center">  
-    <img src="https://michaeljmerritt.github.io/Portfolio/Images/Stocks_Individual2.jpg">
-</p>
+
 
 ## 2. Simple Data Drill Down in Python
 
