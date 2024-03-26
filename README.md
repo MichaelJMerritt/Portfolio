@@ -54,7 +54,13 @@ I wanted to make it easier to set my fantasy football lineups each week, so I cr
 
 This tool draws from a database of all NFL stats that I collect from the internet each week.  I can select any 2 teams andcompare any position.  For instance in the screnshot above I compare the Chiefs running back rushing offense against the 49ers running back rushing defense.  The upper stacked bar chart shows me the Chief's total rushing output for all positions every week in grey, and then stacks each individual running back's output in each week.  Finally each week's opponent's average rushing defensive performance is plotted with a heavy dot.  This one chart can give me a high level view of how the selected team has performed against each opponent's average and then each individual player's contribution.
 
-The bottom bar chart show's the opponent's performance against each running back they've played.  The colored line is that running back's performace against the selected team, and the heavy dot is that running back's average performance.
+The bottom bar chart show's the opponent's performance against each running back they've played.  The colored line is that running back's performace against the selected team, and the heavy dot is that running back's average performance.  From this chart it looks like the 49ers have had success holding running backs that average more than 60 yeards fper game below their average, however they hadn't faced a strong running back in the final 3 weeks of the regular season.
+
+Changing what statistics to look at is as simple as choosing new values from the drop-down boxes and clicking EXECUTE.  Selecting tight end recieving data reveals the charts below.  The 49ers had good success early in the season holding tight ends below their average but seemed to struggle later.  Meanwhile the Chiefs rely heavily on their tight ends in the assing game and routinely collect more yards than the opponents average.  Its interesting to note that trend has fallen off as the season ended.
+
+<p align="center">  
+    <img src="https://michaeljmerritt.github.io/Portfolio/Images/FBOverview2.jpg">
+</p>
 
 ## 3. Dashboard Methodology using Python and Power BI
 
