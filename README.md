@@ -6,10 +6,6 @@ These simple projects show methodology and tool usage without exposing any priva
 
 There are many tools publicly available to analyze an individual stock's performance but I wanted to be able to compare many stock histories and rank them by either (1) how likely they are to continue their current course or (2) how likely they are to change their course in the near future.  I wanted a PowerBI report that I can use to select only companies that meet certain conditions and then drill down into those companies to decide if they are good investments for me.  These conditions include whether a stock price is trending up or down, whether that price trend is accelerating or decelerating and whether there are recent large spikes in trading volume.
 
-<p align="center">  
-    <img src="https://michaeljmerritt.github.io/Portfolio/Images/Stocks_Top.jpg">
-</p>
-
 In order to do that I need to collect historical price and trading volume data for many stocks and develop measures to be able to compare their recent performance.
 
 I found some summary information listing basic information about all of the publicly traded companies in US markets.  So I wrote script to organize the company data into market sectors and then periodically refresh the high level data into a local spreadsheet.  From that data I chose the largest 100 companies from each market sector to keep a database of price and trading volume history, over 2,000 companies.  I wrote another script to update a local database with recent price and trading volume data.  The scrip will look to see if that stock is new to the database and if it is new then it will collect the past 8 years of data, otherwise it will simply update the local database with new data.
@@ -26,9 +22,13 @@ At this point I verify that each measure is working as intended while still usin
     <img src="https://michaeljmerritt.github.io/Portfolio/Images/Stocks_Definition.jpg">
 </p>
 
-Now I was ready to create a PowerBI report that links to the summary spreadhseet and the stock history data file, relating the data files to each other by the stock symbol.  reate visuals on a single page that allow me to only show stocks that are performing in a particular manner, and then
+Now I was ready to create a PowerBI report that links to the summary spreadhseet and the stock history data file, relating the data files to each other by the stock symbol.  This front page allows me to sift through thousands of stocks and choose only those with price or volume trends that meet the parameters I'm most interested in.
 
+<p align="center">  
+    <img src="https://michaeljmerritt.github.io/Portfolio/Images/Stocks_Top.jpg">
+</p>
 
+Drilling into the details of an individual stock's proce or trading volume history shows how the historcal and calculated performance measurements change over time.
 
 <p align="center">  
     <img src="https://michaeljmerritt.github.io/Portfolio/Images/Stocks_Individual.jpg">
