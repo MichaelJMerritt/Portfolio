@@ -42,8 +42,6 @@ Now I was ready to create a PowerBI report that links to the summary spreadhseet
     <img src="https://michaeljmerritt.github.io/Portfolio/Images/Stocks_Individual.jpg">
 </p>
 
-
-
 ## 2. Simple Data Drill Down in Python
 
 I wanted to make it easier to set my fantasy football lineups each week, so I created a simple tool to compare any NFL team's offensive output vs any other team's defensive performance.
