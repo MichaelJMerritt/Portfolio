@@ -14,25 +14,11 @@ In order to do that I need to collect historical price and trading volume data f
 
 I found some summary information listing basic information about all of the publicly traded companies in US markets.  So I wrote script to organize the company data into market sectors and then periodically refresh the high level data into a local spreadsheet.  From that data I chose the largest 100 companies from each market sector to keep a database of price and trading volume history, over 2,000 companies.  I wrote another script to update a local database with recent price and trading volume data.  The scrip will look to see if that stock is new to the database and if it is new then it will collect the past 8 years of data, otherwise it will simply update the local database with new data.
 
+Once this data is properly organized and stored locally I can perform measurements for each stock.  First, I calculate the 6 month and 2 month moving average of each stock's closing price.  The relationship between these two curves will help indicate how the price history is moving.  To that end I identified each time that the 2 month moving average crosses higher than the 6 month moving average and each time that it crosses lower than the 6 month moving average.  The change in distance between these two curves over time is an indication of the stock prioce's acceeration either upward or downward.  
 
+I find the last time there was a crossing of moving averages and define this point as the start of the current streak.  So now I can calculate each stock's streak length, a regression line through the stock price during this streak to identify the stock price's upward or downward trend over that time and finally if the price is accellerating farther away from the 6 month moving average or decellerating back to the 6 month moving average.
 
-Process :
-1. Collect summary data on all publicly traded companies from public websites, nearly 7,000 companies.
-2. Write script to periodically refresh the data into a local spreadsheet.
-3. Organize the company data into market sectors and industries.
-4. Choose the largest 100 companies from each market sector to keep a database of price and trading volume history, over 2,000 companies.
-5. Write script to periodically refresh each individual stock's historical data locally.
-   - Ensure that if a new stock enters the top 100 that the code will collect the last 4 years of data, otherwise simply add any missing data that has become available since the last refresh.
-6. Decide on various analyses to perform in order to gain insight on how the stock is performing:
-   - A 25 day moving average and a 50 day moving average on stock price to get insight on how the price is trending ( up or down ) and how the trend is moving ( accelerating or decelerating ).
-   - Identify all points at which the 2 moving averages cross to understand when the price change enters a meaningful direction change.
-   - Use the trading volume and the price histories to calculate a measure of public sentiment called On Balance Volume (OBV) which simply adds the trading volume during price increases and subtracts the trading volume during times of price decreases.
-   - Calculate the slopes of each of the price and volume regression lines over the past 25 days to create a measure of the magnitude of how a price is changing.
-7. Combine all individual stock history data into a single data file.  Current data file approaching 3 million lines.
-8. For each stock symbol in the data file:
-   - Add columns for the various moving averages and the OBV. Perform the regression analyses to get the slope of the trends.
-   - Based on these slopes identify if each line is Rising Fast, Rising, Neutral, Falling or Falling Fast.
-   - Add these measures to the original spreadsheet containing all of the stock summaries.
+Next, I use the trading volume and the price histories to calculate a measure of public sentiment called On Balance Volume (OBV) which is a simple tally that adds the trading volume during price increases and subtracts the trading volume during times of price decreases.  Similar to the price data, I calculate a regression line through the OBV over the time of the current streak to identify the OBV's upward or downward trend.  Finally, I calculate any extreme peaks in OBV ove the past 3 weeks.  An extreme peak is defined as any single day where the trading volume is more than 4x the average volume of the 3 week span.
   
 At this point I verify that each measure is working as intended while still using Python, image below.  In the stock price pane ( top ) I plot each moving average crossing with either a red or green dot, depending on if the crossing is the short term rising above the long term or falling below.  Then I plot the price trend line in grey over its signal in black.  In the trading volume pane ( bottom ) I plot the OBV measurement in black and the trend line in red.  
 
