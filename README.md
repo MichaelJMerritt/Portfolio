@@ -4,11 +4,17 @@ These simple projects show methodology and tool usage without exposing any priva
 
 ## 1. Collecting and Combining Data from Many Sources
 
-There are many tools publicly available to analyze an individual stock's performance but I wanted to be able to compare many stock histories and rank them by either (1) how likely they are to continue their current course or (2) how likely they are to change their course in the near future.  In order to do that I need to collect historical price and trading volume data for many stocks and develop measures to be able to compare their recent performance.
+There are many tools publicly available to analyze an individual stock's performance but I wanted to be able to compare many stock histories and rank them by either (1) how likely they are to continue their current course or (2) how likely they are to change their course in the near future.  I wanted a PowerBI report that I can use to select only companies that meet certain conditions and then drill down into those companies to decide if they are good investments for me.  These conditions include whether a stock price is trending up or down, whether that price trend is accelerating or decelerating and whether there are recent large spikes in trading volume.
 
 <p align="center">  
     <img src="https://michaeljmerritt.github.io/Portfolio/Images/Stocks_Top.jpg">
 </p>
+
+In order to do that I need to collect historical price and trading volume data for many stocks and develop measures to be able to compare their recent performance.
+
+I found some summary information listing basic information about all of the publicly traded companies in US markets.  So I wrote script to organize the company data into market sectors and then periodically refresh the high level data into a local spreadsheet.  From that data I chose the largest 100 companies from each market sector to keep a database of price and trading volume history, over 2,000 companies.  I wrote another script to update a local database with recent price and trading volume data.  The scrip will look to see if that stock is new to the database and if it is new then it will collect the past 8 years of data, otherwise it will simply update the local database with new data.
+
+
 
 Process :
 1. Collect summary data on all publicly traded companies from public websites, nearly 7,000 companies.
@@ -28,7 +34,7 @@ Process :
    - Based on these slopes identify if each line is Rising Fast, Rising, Neutral, Falling or Falling Fast.
    - Add these measures to the original spreadsheet containing all of the stock summaries.
   
-At this point I verify that each measure is working as intended while still using Python, image below.  In the stock price pane ( top left ) I plot each moving average crossing with either a red or green dot, depending on if the crossing is the short term rising above the long term or falling below.  Then I plot each trend line over its signal.  In the trading volume pane ( bottom right ) I plot the OBV measurement in black and the 5 latest week trend line in red.  Finally, 
+At this point I verify that each measure is working as intended while still using Python, image below.  In the stock price pane ( top ) I plot each moving average crossing with either a red or green dot, depending on if the crossing is the short term rising above the long term or falling below.  Then I plot the price trend line in grey over its signal in black.  In the trading volume pane ( bottom ) I plot the OBV measurement in black and the trend line in red.  
 
 <p align="center">  
     <img src="https://michaeljmerritt.github.io/Portfolio/Images/Stocks_Definition.jpg">
